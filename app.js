@@ -18,9 +18,6 @@ console.log('jo jo jo')
 console.log('jo jo jo')
 console.log('jo jo jo')
 console.log('jo jo jo')
-console.log('jo jo jo')
-console.log('jo jo jo')
-console.log('jo jo jo')
 console.timeEnd('Hello')
 /*
 and these are 
