@@ -29,4 +29,6 @@ Some of the extensions I like are:
 
 I highly recommend installing these, it will make your life much easier.
 
-Stay tuned!
+Anyways, to get started, select the 1st branch from the dropdown menu on the top-left!
+
+Enjoy and stay tuned!
