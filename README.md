@@ -1,11 +1,32 @@
 # Modern JavaScript excercises
-## Vanilla only
 
 HI there!
 
 The plan is to create a base for people that want to start with javascript and to refresh my own skills.
 
-For now I think I will create a new branch for each new "lesson" as I progress and then merge them into the default branch but keep them alive so that you can see the code-base.
+## Vanilla only
 
+The point of this is to use vanilla JavaScript and make it easier for beginners to understand how JavaScript works in its core.
+
+#### The Plan
+
+For now I think I will create a new branch for each new "lesson" as I progress.
+You will find a different markdown on each branch explaining what its all about.
+
+Also there are some basic files to get you started on each branch. For now there are only `index.html` ,`app.js` and the `README.md` files.
+
+I would also recommend VS CODE as the IDE to get started as it is not complicated.
+
+Some of the extensions I like are:
+| Name| What is it? |
+| ------ | ------ |
+| Prettier | Best code formatter out there. |
+| Bracket Corolizer | Make sense of your own code. |
+| Tabnine | The best AI code completion tool. |
+| VsCode Icons | Make that sidebar look nice. |
+| Live Server | Local development server with live reload.|
+| ES6 code snippets | Code snippets for JavaScript in ES6 syntax. |
+
+I highly recommend installing these, it will make your life much easier.
 
 Stay tuned!
