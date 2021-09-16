@@ -32,3 +32,5 @@ I highly recommend installing these, it will make your life much easier.
 Anyways, to get started, select the 1st branch from the dropdown menu on the top-left!
 
 Enjoy and stay tuned!
+
+I started to add all the lessons to the main branch as that makes much more sense. Nevertheless, the individual branches will stay alive.
