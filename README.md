@@ -36,3 +36,5 @@ Enjoy and stay tuned!
 I started to add all the lessons to the main branch as that makes much more sense. Nevertheless, the individual branches will stay alive.
 
 p.s. I recommend you to create your own git repository, that way you will also learn how to use versioning tools which is a must for development. :)
+
+p.p.s. I will also show you how markdown works so your project/repo docummentation can look nicer.
