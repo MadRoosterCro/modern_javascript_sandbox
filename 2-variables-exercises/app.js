@@ -16,9 +16,9 @@ console.log(hello); // ==> this will now show a value in console, we assigned it
 
 // Camel case and other examples:
 
-var firstName = 'Dario'; // Camel case, we will mostly be using this for regular variables
-var first_name = 'Dario'; // Underscore
-var FirstName = 'Dario'; // Pascal case
+var firstName = 'Johnny'; // Camel case, we will mostly be using this for regular variables
+var first_name = 'Jan'; // Underscore
+var FirstName = 'Janice'; // Pascal case
 var firstname; // =====> unreadable
 
 // declaring variables using LET

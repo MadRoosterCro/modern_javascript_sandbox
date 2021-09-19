@@ -6,7 +6,7 @@ There are several ways to declare a variable
 
 ### VAR
 
-The "old" way of declaring a variable, not used very often and is considered archaic by some devs.
+The "old" way of declaring a variable, not used often anymore and is considered archaic by some devs.
 
 #### Declaring variables using `var`
 
