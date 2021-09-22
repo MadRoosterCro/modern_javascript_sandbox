@@ -1,4 +1,4 @@
-let val;
+let val; // lets declare a variable for start
 
 // Number to string conversion
 val = 5;
