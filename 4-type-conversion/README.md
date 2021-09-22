@@ -12,6 +12,16 @@ This means that strings containing numbers (like `'5.55'`) will convert to numbe
 
 Empty strings will convert to 0.
 
-Anything else will convert to `NaN` (Not A Number)
+Anything else will convert to `NaN` (Not A Number).
 
+Please see `app.js` file for more explanations!
 
+> General tip: Google is your friend and is an important tool in everyday life of a developer!
+
+Some other usefull tools/sites I like (_in no particular order_) are:
+
+- MDN Web Docks
+- Stack Overflow
+- W3Schools
+- DevDocs
+- FreeCodeCamp
