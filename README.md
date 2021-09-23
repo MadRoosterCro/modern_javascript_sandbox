@@ -37,6 +37,6 @@ I started to add all the lessons to the main branch as that makes much more sens
 
 p.s. I recommend you to create your own git repository, that way you will also learn how to use versioning tools which is a must for development. :)
 
-p.p.s. I will also show you how markdown works so your project/repo docummentation can look nicer.
+p.p.s. I will also show you how markdown works so your project/repo docummentation can look nicer. There is a lot of things you can do in markdown alone, here you can put links, thumbnails, tables, statistics, media etc. 
 
 > NOTE: If you start live-server, don't get confused by the different lesson directories, it will host all of the directories in the root, so just pick the lesson you are working on and keep on rockin!
