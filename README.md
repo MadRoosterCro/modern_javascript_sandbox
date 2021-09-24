@@ -40,3 +40,6 @@ p.s. I recommend you to create your own git repository, that way you will also l
 p.p.s. I will also show you how markdown works so your project/repo docummentation can look nicer. There is a lot of things you can do in markdown alone, here you can put links, thumbnails, tables, statistics, media etc. 
 
 > NOTE: If you start live-server, don't get confused by the different lesson directories, it will host all of the directories in the root, so just pick the lesson you are working on and keep on rockin!
+
+p.p.p.s. 
+It is getting ridiculous with the peepees, I know, but if you have any questions feel free to contact me on the socials!
