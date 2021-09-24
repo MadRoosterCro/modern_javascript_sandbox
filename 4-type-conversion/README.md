@@ -45,3 +45,23 @@ Some other usefull tools/sites I like (_in no particular order_) are:
 
 ## Logical OR -> `||`
 
+It is typically used for Booleans and it returns a true/false value.
+Not to complicate life any further, and to avoid more confusion, let me show you what this means.
+
+If we say this in our code:
+
+```sh
+red || blue
+```
+
+That means if `red` can be converted to `true`, it will return `red`, else, it will return `blue`.
+
+Values that can be converted to `true` are called truthy, values that can be converted to `false` are called `falsy`.
+
+Here are some examples that can be `falsy`:
+
+- `null`
+- `NaN`
+- `0`
+- empty strings (any ticks, "", '', or ``) ==> different ticks have also different meanings, more on that later on
+- `undefined`
