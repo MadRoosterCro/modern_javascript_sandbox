@@ -98,7 +98,7 @@ Same thing would happen if we try to parse an array as a number.
 Now when we try to check the type of NaN, we see that that the console says NaN is of type number. 
 Seems funny that a value Not A Number is actually a number, this is confusing for a lot of people.
 Despite the fact that it is called Not A Number, it is still a numeric type :)
-NaN just means that the specific value cannot be represented within the li,itations of the numeric type.
+NaN just means that the specific value cannot be represented within the limitations of the numeric type.
 
 Furthermore, a specific NaN is not equal to another NaN as they may cine from different values.
 A bit confusing, I know, but with time you'll get it.

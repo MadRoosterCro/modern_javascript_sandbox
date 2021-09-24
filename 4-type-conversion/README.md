@@ -14,6 +14,20 @@ Empty strings will convert to 0.
 
 Anything else will convert to `NaN` (Not A Number).
 
+# `'NaN'`
+
+What seems to be really confusing here is that `NaN` is actually a number type. I know, strange since it stands for not a number, right?
+
+Let's put it this way, `NaN` is of numeric type, it stands for unrepresentable value, a value that has non-writable and non-configurable properties.
+
+There are five different operations that will return `NaN`:
+
+1. When a number cannot be parsed (`parseInt('MichaelKeatonIsMyFavoriteBatman') || Number(undefined)`)
+2. Math operations when the result is not a real number (`Math.sqrt(-1)`)
+3. When `NaN` is na operand of an argument (`7 ** NaN`)
+4. When using indeterminate forms (`0 * Infinity || undefined + undefined`)
+5. Any operation that involves a string and is not addition (`'RobinIsLame' / 69`)
+
 Please see `app.js` file for more explanations!
 
 > General tip: Google is your friend and is an important tool in everyday life of a developer!
@@ -25,3 +39,9 @@ Some other usefull tools/sites I like (_in no particular order_) are:
 - W3Schools
 - DevDocs
 - FreeCodeCamp
+
+> Oh yeah, when I was listing `NaN` examples, you might've noticed the `||` signs.
+> The sign `|` is called a pipe, and when you see it 2 times like that, it represents logical disjunction. The way I used it here wasn't really how it is supposed to be used, I just want to ease it in the lessons. I will try to this will most of the syntax.
+
+## Logical OR -> `||`
+
