@@ -65,3 +65,25 @@ Here are some examples that can be `falsy`:
 - `0`
 - empty strings (any ticks, "", '', or ``) ==> different ticks have also different meanings, more on that later on
 - `undefined`
+
+As I mentioned, we will be mentioning some new syntax as we progress.
+
+## Quoting styles
+
+Let's continue with quoting styles since we've mentioned it above.
+
+There are 2 quoting styles in JavaScript
+(_3 actually, but let's leave backticks `` for later_)
+
+For now let's focus on the main 2 quoting styles:
+
+- single `''`
+- and double quotes`""`
+
+Both of them are used to represent a string n JavaScript. Choosing which one you will use is up to you and there actually isn't any significant difference between them. Which ever one you choose, just keep using that one and stay consistent.
+
+Sometimes you will need to combine the quoting styles. For example when you need to use an apostrophe in a string.
+
+```sh
+let example = "I've done it!"
+```
