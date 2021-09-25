@@ -67,3 +67,5 @@ Here are some examples that can be `falsy`:
 - `undefined`
 
 As I mentioned, we will be mentioning some new syntax as we progress.
+
+Let's continue with quoting styles since we've mentioned it above.
