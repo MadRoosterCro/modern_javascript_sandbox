@@ -68,4 +68,16 @@ Here are some examples that can be `falsy`:
 
 As I mentioned, we will be mentioning some new syntax as we progress.
 
+## Quoting styles
+
 Let's continue with quoting styles since we've mentioned it above.
+
+There are 2 quoting styles in JavaScript
+(_3 actually, but let's leave backticks `` for later_)
+
+For now let's focus on the main 2 quoting styles:
+
+- single `''`
+- and double quotes`""`
+
+Both of them are used to represent a string n JavaScript.
