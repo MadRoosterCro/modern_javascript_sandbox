@@ -65,3 +65,5 @@ Here are some examples that can be `falsy`:
 - `0`
 - empty strings (any ticks, "", '', or ``) ==> different ticks have also different meanings, more on that later on
 - `undefined`
+
+As I mentioned, we will be mentioning some new syntax as we progress.
