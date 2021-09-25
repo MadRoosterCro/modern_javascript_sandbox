@@ -97,4 +97,8 @@ And so, the message from above would become:
 ```sh
 let example = 'I\'ve succeeded!';
 ```
-A few things
+
+A few things to remember here:
+
+- a double-quoted string can have single quotes without escaping them, a single-quoted string can have double quotes within it without having to escape them.
+- double quotes ( `\"` ) must escape a double quote and vice versa single quotes ( `\'` ) must escape a single quote.
