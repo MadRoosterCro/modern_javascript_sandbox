@@ -85,5 +85,20 @@ Both of them are used to represent a string n JavaScript. Choosing which one you
 Sometimes you will need to combine the quoting styles. For example when you need to use an apostrophe in a string.
 
 ```sh
-let example = "I've done it!"
+let example = "I've succeeded!"
 ```
+
+Here we used a combination of quotes, if we only used single quotes, there is no way for the browser to know which quote is the closing one so the sentence would not be valid.
+
+We can also escape stuff with the use of the forward slash `\`. We use forward slash in front of the character we want to escape.
+
+And so, the message from above would become:
+
+```sh
+let example = 'I\'ve succeeded!';
+```
+
+A few things to remember here:
+
+- a double-quoted string can have single quotes without escaping them, a single-quoted string can have double quotes within it without having to escape them.
+- double quotes ( `\"` ) must escape a double quote and vice versa single quotes ( `\'` ) must escape a single quote.
