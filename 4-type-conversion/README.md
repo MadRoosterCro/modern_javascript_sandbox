@@ -81,3 +81,9 @@ For now let's focus on the main 2 quoting styles:
 - and double quotes`""`
 
 Both of them are used to represent a string n JavaScript. Choosing which one you will use is up to you and there actually isn't any significant difference between them. Which ever one you choose, just keep using that one and stay consistent.
+
+Sometimes you will need to combine the quoting styles. For example when you need to use an apostrophe in a string.
+
+```sh
+let example = "I've done it!"
+```
