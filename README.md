@@ -4,6 +4,7 @@ HI there!
 
 The plan is to create a base for people that want to start with javascript and to refresh my own skills.
 
+Also, before we start I would recommend you to install Git, NodeJs and your preffered IDE on your machine.
 ## Vanilla only
 
 The point of this is to use vanilla JavaScript and make it easier for beginners to understand how JavaScript works in its core.
