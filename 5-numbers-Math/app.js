@@ -59,7 +59,7 @@ console.log(`Maximum value is ${val8}`);
 /**
  * And so on, as I said, play around and familiarize yourself with the methods.
  * There is one more than I want to show you that will come in handy to you when creating passwords, tokens, random stuff, etc.
- * This method will give you a new random decimal number each time you fire it (here each time you save)
+ * This method will give you a new random decimal number each time you fire it (here each time you save or reload)
  *  */
 let val9 = Math.random();
 console.log(`Random float is ${val9}`);
