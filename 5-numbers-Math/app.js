@@ -51,9 +51,30 @@ let val6 = Math.sqrt(16);
 console.log(`Square root is ${val6}`);
 
 // look for minimum or maximum value:
-val7 = Math.min(2, 55, 12, 3255, -21, 2, -2);
+let val7 = Math.min(2, 55, 12, 3255, -21, 2, -2);
 console.log(`Minimum value is ${val7}`);
-val8 = Math.max(2, 55, 12, 3255, -21, 2, -2);
+let val8 = Math.max(2, 55, 12, 3255, -21, 2, -2);
 console.log(`Maximum value is ${val8}`);
 
+/**
+ * And so on, as I said, play around and familiarize yourself with the methods.
+ * There is one more than I want to show you that will come in handy to you when creating passwords, tokens, random stuff, etc.
+ * This method will give you a new random decimal number each time you fire it (here each time you save)
+ *  */
+let val9 = Math.random();
+console.log(`Random float is ${val9}`);
 
+// However, a lot of the times you want a whole random number, so you can do this:
+
+let val10 = Math.floor(Math.random() * 20 + 1);
+console.log(`Random whole number is ${val10}`);
+
+/**
+ * So here is what we did here, from inside out:
+ * first we created a random float with the .random() method, then we multiplied it with the max number that would likely
+ * be generated and added 1 to it to ensure the edge case and that our desired number is between 1-20.
+ * Then, since this would still be a decimal, we wrapped the whole thing with the .floor() method to round
+ * the final number down to a round number.
+ *
+ * And by doing so and combining everything we learned so far, we finally created a random whole number.
+ */
