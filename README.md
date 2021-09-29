@@ -19,13 +19,14 @@ Also there are some basic files to get you started on each branch. For now there
 I would also recommend VS CODE as the IDE to get started as it is not complicated.
 
 Some of the extensions I like are:
-| Name| What is it? |
-| ------ | ------ |
-| Prettier | Best code formatter out there. |
-| Bracket Corolizer | Make sense of your own code. |
-| Tabnine | The best AI code completion tool. |
-| VsCode Icons | Make that sidebar look nice. |
-| Live Server | Local development server with live reload.|
+
+| Name              | What is it?                                 |
+| ----------------- | ------------------------------------------- |
+| Prettier          | Best code formatter out there.              |
+| Bracket Corolizer | Make sense of your own code.                |
+| Tabnine           | The best AI code completion tool.           |
+| VsCode Icons      | Make that sidebar look nice.                |
+| Live Server       | Local development server with live reload.  |
 | ES6 code snippets | Code snippets for JavaScript in ES6 syntax. |
 
 I highly recommend installing these, it will make your life much easier.
@@ -38,9 +39,9 @@ I started to add all the lessons to the main branch as that makes much more sens
 
 p.s. I recommend you to create your own git repository, that way you will also learn how to use versioning tools which is a must for development. :)
 
-p.p.s. I will also show you how markdown works so your project/repo docummentation can look nicer. There is a lot of things you can do in markdown alone, here you can put links, thumbnails, tables, statistics, media etc. 
+p.p.s. I will also show you how markdown works so your project/repo docummentation can look nicer. There is a lot of things you can do in markdown alone, here you can put links, thumbnails, tables, statistics, media etc.
 
 > NOTE: If you start live-server, don't get confused by the different lesson directories, it will host all of the directories in the root, so just pick the lesson you are working on and keep on rockin!
 
-p.p.p.s. 
+p.p.p.s.
 It is getting ridiculous with the peepees, I know, but if you have any questions feel free to contact me on the socials!
