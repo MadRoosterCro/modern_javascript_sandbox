@@ -2,6 +2,8 @@ const num1 = 100;
 const num2 = 50;
 let val;
 
+Math.
+
 // Simple math with numbers
 val = num1 + num2;
 console.log(val);

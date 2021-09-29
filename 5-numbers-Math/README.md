@@ -10,3 +10,19 @@ All properties of the `Math` object are static. We can refer to the constant `π
 
 > Important note: _Some `Math` functions have implementation-dependent precision. This means that the result may differ in different browsers and that the same JavaScript engine can yield different results on a different Operating System_
 
+We can always check all the available methods and properties in a given object by entering dot(`.`) after calling the object.
+
+### Math object properties:
+
+| Property  | Description                         |
+| --------- | ----------------------------------- |
+| `E`       | Returns Euler's number              |
+| `LN2`     | Returns the natural logarithm of 2  |
+| `LN10`    | Returns the natural logarithm of 10 |
+| `LOG2E`   | Returns the base-2 logarithm of E   |
+| `LOG10E`  | Returns the base-10 logarithm of E  |
+| `PI`      | Returns PI                          |
+| `SQRT1_2` | Returns the square root of 1/2      |
+| `SQRT2`   | Returns the square root of 2        |
+
+### Math object methods:
