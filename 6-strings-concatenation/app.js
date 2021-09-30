@@ -84,3 +84,13 @@ console.log(`Last instance of 't' is at index`, findLastIndexOf);
 
 let findCharAtIndex = string.charAt("4");
 console.log(`The charachter at provided index is`, findCharAtIndex); // as expected, console tells us that the char at index 4 is t
+
+// If we want to get the last char of a given string
+
+let val8 = firstName.charAt(firstName.length - 1);
+console.log(`Last charachter of ${firstName} is`, val8);
+
+/* here we are looking for the last charachter of the string, 
+first we get the whole length of the string, and  then we check the last charachter with -1
+try playing around with the firstName variable and you will see that it is always correct
+*/
