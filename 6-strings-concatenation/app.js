@@ -38,3 +38,8 @@ console.log(val3);
 
 let val4 = firstName.length; // notice we dont need () since this is a property, not a Method
 console.log(`The number of charachters in the firstName variable is`, val4);
+
+// concat  ==> works simillarly as "manual" concatenation from the start of the lesson
+
+let val5 = firstName.concat(` `, lastName);
+console.log(`Concat method with our 2 declared variables gives us ===>`, val5);
