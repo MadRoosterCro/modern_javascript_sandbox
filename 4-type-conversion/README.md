@@ -90,6 +90,8 @@ let example = "I've succeeded!"
 
 Here we used a combination of quotes, if we only used single quotes, there is no way for the browser to know which quote is the closing one so the sentence would not be valid.
 
+## Escaping
+
 We can also escape stuff with the use of the forward slash `\`. We use forward slash in front of the character we want to escape.
 
 And so, the message from above would become:

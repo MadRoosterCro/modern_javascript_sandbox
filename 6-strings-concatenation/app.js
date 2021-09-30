@@ -27,5 +27,14 @@ let val3 = `Hello, my name is ` + firstName + ` and I am ` + age;
 console.log(val3);
 // you see how we can simply combine strings and declared variables to create something meaningful
 
-// modern javascript introduced template literals which we will do later on
-// for now, let's focus on the basics so you know what is happening behind the curtains
+/**
+ * modern javascript introduced template literals which we will do later on
+ * for now, let's focus on the basics so you know what is happening behind the curtains
+ */
+
+// let's look at some properties available when playing around whit strings
+
+// Length
+
+let val4 = firstName.length; // notice we dont need () since this is a property, not a Method
+console.log(`The number of charachters in the firstName variable is`, val4);
