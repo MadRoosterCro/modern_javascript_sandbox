@@ -7,11 +7,13 @@ let val;
 // lets see what will happen if we add the declared variables
 val = firstName + lastName;
 
-console.log(`If we just add variables together we get ===>`, val);
+console.log(`If we just add variables together we get ===> '${val}'`);
 // we can see that this just smushes the strings together, this is why we need concatenation
 
 let val1 = firstName + " " + lastName;
-console.log(`Now we added a space between the variables and we got ===>`, val1);
+console.log(
+  `Now we added a space between the variables and we got ===> '${val1}'`
+);
 
 // if we want to add something to a variable, we need to append it
 
@@ -19,7 +21,7 @@ let val2 = "John "; // -> notice there is a space after the name
 // now if we do val2 = "Malkovich", it will overwrite the initial value, so for appending it we can do
 val2 += "Malkovich";
 
-console.log(`With the += for appending variables we got ====>`, val2);
+console.log(`With the += for appending variables we got ====> '${val2}'`);
 
 // now let's play around a bit
 
@@ -42,15 +44,17 @@ console.log(`The number of characters in the firstName variable is`, val4);
 // concat  ==> works simillarly as "manual" concatenation from the start of the lesson
 
 let val5 = firstName.concat(` `, lastName);
-console.log(`Concat method with our 2 declared variables gives us ===>`, val5);
+console.log(
+  `Concat method with our 2 declared variables gives us ===> '${val5}'`
+);
 
 // Changing case (lower case and upper case)
 
 let val6 = firstName.toUpperCase();
-console.log(`The method toUpperCase gives us ===>`, val6);
+console.log(`The method toUpperCase gives us ===> '${val6}'`);
 
 let val7 = firstName.toLowerCase();
-console.log(`The method toLowerCase gives us ===>`, val7);
+console.log(`The method toLowerCase gives us ===> '${val7}'`);
 
 // theese will come usefull when validating/comparing usernames, emails, etc.
 
@@ -83,12 +87,12 @@ console.log(`Last instance of 't' is at index`, findLastIndexOf);
 // charAt() -> a Method for finding what value is at a provided index
 
 let findCharAtIndex = string.charAt("4");
-console.log(`The character at provided index is`, findCharAtIndex); // as expected, console tells us that the char at index 4 is t
+console.log(`The character at provided index is '${findCharAtIndex}'`); // as expected, console tells us that the char at index 4 is t
 
 // If we want to get the last char of a given string
 
 let val8 = firstName.charAt(firstName.length - 1);
-console.log(`Last character of ${firstName} is`, val8);
+console.log(`Last character of '${firstName}' is '${val8}'`);
 
 /* here we are looking for the last character of the string, 
 first we get the whole length of the string, and  then we check the last character with -1
@@ -98,11 +102,36 @@ try playing around with the firstName variable and you will see that it is alway
 // substring() -> creating substrings from a given strings, we can specifiy start and end index as arguments
 
 let val9 = string.substring(0, 12);
-console.log(`The substring of first 12 chars is`, val9);
+console.log(`The substring of first 12 chars is '${val9}'`);
 
 // slice() -> simillar to substring() but with some extra options
 
 let val10 = string.slice(-5); // we can put a negative value and it will start from the end of the string and take that many characters and spit them out
-console.log(`Last 5 characters from ${string} are`, val10);
+console.log(`Last 5 characters from '${string}' are '${val10}'`);
 
 // split() -> this can split a string into an Array based on a separator
+const bestSuperhero = "Batman";
+const secondBestSuperhero = "Ironman";
+
+const tempString = `Hello there, did you know that I am ${bestSuperhero}?`;
+let val11 = tempString.split(" ");
+console.log(`When we split '${tempString}' into an Array we get`, val11);
+// we separated the string by space
+
+// replace()
+
+let val12 = tempString.replace(bestSuperhero, secondBestSuperhero);
+console.log(
+  `When we replace '${bestSuperhero}' with '${secondBestSuperhero}' we get '${val12}'`
+);
+
+// includes() -> gives a Boolean if something exists in the string
+
+let val13 = tempString.includes(bestSuperhero);
+console.log(`Does '${tempString}' include '${bestSuperhero}'`, val13);
+
+/**
+ *
+ * NOTE TO SELF, EXPLAIN INTERPOLATION
+ *
+ */
