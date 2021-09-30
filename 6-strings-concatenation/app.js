@@ -1,5 +1,6 @@
 const firstName = "John";
 const lastName = "Malkovich";
+const age = 67;
 
 let val;
 
@@ -19,3 +20,12 @@ let val2 = "John "; // -> notice there is a space after the name
 val2 += "Malkovich";
 
 console.log(`With the += for appending variables we got ====>`, val2);
+
+// now let's play around a bit
+
+let val3 = `Hello, my name is ` + firstName + ` and I am ` + age;
+console.log(val3);
+// you see how we can simply combine strings and declared variables to create something meaningful
+
+// modern javascript introduced template literals which we will do later on
+// for now, let's focus on the basics so you know what is happening behind the curtains
