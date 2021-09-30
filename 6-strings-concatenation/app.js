@@ -43,3 +43,13 @@ console.log(`The number of charachters in the firstName variable is`, val4);
 
 let val5 = firstName.concat(` `, lastName);
 console.log(`Concat method with our 2 declared variables gives us ===>`, val5);
+
+// Changing case (lower case and upper case)
+
+let val6 = firstName.toUpperCase();
+console.log(`The method toUpperCase gives us ===>`, val6);
+
+let val7 = firstName.toLowerCase();
+console.log(`The method toLowerCase gives us ===>`, val7);
+
+// theese will come usefull when validating/comparing usernames, emails, etc.
