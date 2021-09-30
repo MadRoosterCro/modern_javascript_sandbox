@@ -37,7 +37,7 @@ console.log(val3);
 // Length
 
 let val4 = firstName.length; // notice we dont need () since this is a property, not a Method
-console.log(`The number of charachters in the firstName variable is`, val4);
+console.log(`The number of characters in the firstName variable is`, val4);
 
 // concat  ==> works simillarly as "manual" concatenation from the start of the lesson
 
@@ -58,8 +58,8 @@ console.log(`The method toLowerCase gives us ===>`, val7);
 
 /**
  * this is an important part since it is the first time we are mentioning indexes
- * index is a position of a characher in a given string
- * indexes start from 0, and that is the first charachter in a given string, this might be confusing now but just bear with me
+ * index is a position of a character in a given string
+ * indexes start from 0, and that is the first characters in a given string, this might be confusing now but just bear with me
  *
  * this means if we have a string "MyLittleTownIsGreat" indexes will show following
  * index of 0 = M
@@ -73,24 +73,36 @@ console.log(`The method toLowerCase gives us ===>`, val7);
 
 const string = "MyLittleTownIsGreat";
 
-let findIndexOf = string.indexOf("t"); // this will find the first instance of the charachter 't' starting from left to right
+let findIndexOf = string.indexOf("t"); // this will find the first instance of the character 't' starting from left to right
 console.log(`First instance of 't' is at index`, findIndexOf);
 
-// we can also look for last instance of the charachter 't' by looking from right to left
+// we can also look for last instance of the character 't' by looking from right to left
 let findLastIndexOf = string.lastIndexOf("t");
 console.log(`Last instance of 't' is at index`, findLastIndexOf);
 
 // charAt() -> a Method for finding what value is at a provided index
 
 let findCharAtIndex = string.charAt("4");
-console.log(`The charachter at provided index is`, findCharAtIndex); // as expected, console tells us that the char at index 4 is t
+console.log(`The character at provided index is`, findCharAtIndex); // as expected, console tells us that the char at index 4 is t
 
 // If we want to get the last char of a given string
 
 let val8 = firstName.charAt(firstName.length - 1);
-console.log(`Last charachter of ${firstName} is`, val8);
+console.log(`Last character of ${firstName} is`, val8);
 
-/* here we are looking for the last charachter of the string, 
-first we get the whole length of the string, and  then we check the last charachter with -1
+/* here we are looking for the last character of the string, 
+first we get the whole length of the string, and  then we check the last character with -1
 try playing around with the firstName variable and you will see that it is always correct
 */
+
+// substring() -> creating substrings from a given strings, we can specifiy start and end index as arguments
+
+let val9 = string.substring(0, 12);
+console.log(`The substring of first 12 chars is`, val9);
+
+// slice() -> simillar to substring() but with some extra options
+
+let val10 = string.slice(-5); // we can put a negative value and it will start from the end of the string and take that many characters and spit them out
+console.log(`Last 5 characters from ${string} are`, val10);
+
+// split() -> this can split a string into an Array based on a separator
