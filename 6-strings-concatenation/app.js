@@ -69,7 +69,7 @@ console.log(`The method toLowerCase gives us ===>`, val7);
  * you get the gist, now let's look at some methods
  */
 
-// indexOf()
+// indexOf() -> a Method for finding the index
 
 const string = "MyLittleTownIsGreat";
 
@@ -79,3 +79,8 @@ console.log(`First instance of 't' is at index`, findIndexOf);
 // we can also look for last instance of the charachter 't' by looking from right to left
 let findLastIndexOf = string.lastIndexOf("t");
 console.log(`Last instance of 't' is at index`, findLastIndexOf);
+
+// charAt() -> a Method for finding what value is at a provided index
+
+let findCharAtIndex = string.charAt("4");
+console.log(`The charachter at provided index is`, findCharAtIndex); // as expected, console tells us that the char at index 4 is t
