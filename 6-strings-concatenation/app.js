@@ -53,3 +53,29 @@ let val7 = firstName.toLowerCase();
 console.log(`The method toLowerCase gives us ===>`, val7);
 
 // theese will come usefull when validating/comparing usernames, emails, etc.
+
+// INDEXES
+
+/**
+ * this is an important part since it is the first time we are mentioning indexes
+ * index is a position of a characher in a given string
+ * indexes start from 0, and that is the first charachter in a given string, this might be confusing now but just bear with me
+ *
+ * this means if we have a string "MyLittleTownIsGreat" indexes will show following
+ * index of 0 = M
+ * index of 1 = y
+ * index of 2 = L
+ * etc.
+ * you get the gist, now let's look at some methods
+ */
+
+// indexOf()
+
+const string = "MyLittleTownIsGreat";
+
+let findIndexOf = string.indexOf("t"); // this will find the first instance of the charachter 't' starting from left to right
+console.log(`First instance of 't' is at index`, findIndexOf);
+
+// we can also look for last instance of the charachter 't' by looking from right to left
+let findLastIndexOf = string.lastIndexOf("t");
+console.log(`Last instance of 't' is at index`, findLastIndexOf);
