@@ -49,5 +49,11 @@ document.body.innerHTML = newHtml;
  * beside variables, in the template literals we can include \
  * expresions: ${2+2}
  * functions: we will cover them later, here is just a simple one that prints a string "Hello!" when called
- * 
+ * conditionals: ternary operator (short-hand for if statements)
+ *  age > 66 ? "Over 66" : "Under 66"
+ * code above means:
+ * if age is greater than 66, show 'Over 66' but if age is not greater than 66, show "Under 66"
+ *
+ * for now do not worry about it, we will cover it in a dedicated lesson, now I just wanted to show
+ * you different things we can use while working with template literals
  */
