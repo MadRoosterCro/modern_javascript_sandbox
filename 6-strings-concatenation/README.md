@@ -33,10 +33,14 @@ These methods can be used interchangeably, so neither one or the other offer any
 | match(RegExp)                       | Search a string for a match using specified regular expression. Returns a matching array.                                                                |
 | replace(searchValue, replaceValue)  | Search specified string value and replace with specified replace Value string and return new string. Regular expression can also be used as searchValue. |
 | search(RegExp)                      | Search for a match based on specified regular expression.                                                                                                |
+| slice(startNumber, endNumber)       | Extracts a section of a string based on specified starting and ending index and returns a new string.                                                    |
+| split(separatorString, limitNumber) | Splits a String into an array of strings by separating the string into substrings based on specified separator.                                          |
+| substr(start, length)               | Returns the characters in a string from specified starting position through the specified number of characters (length).                                 |
+| substring(start, end)               | Returns the characters in a string between start and end indexes.                                                                                        |
+| toLocaleLowerCase()                 | Converts a string to lower case according to current locale.                                                                                             |
+| toLocaleUpperCase()                 | Converts a sting to upper case according to current locale.                                                                                              |
+| toLowerCase()                       | Returns lower case string value.                                                                                                                         |
+| toString()                          | Returns the value of String object.                                                                                                                      |
+| toUpperCase()                       | Returns upper case string value.                                                                                                                         |
+| valueOf()                           | Returns the primitive value of the specified string object.                                                                                              |
 
-|
-| | |
-| | |
-| | |
-| | |
-| | |
