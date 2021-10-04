@@ -9,4 +9,5 @@ const fruit = ["Apple", "Orange", "Pear", "Fig"];
 
 // we can also mix types in an array
 const mixed = [22, "Hey", true, undefined, null, { a: 1, b: 2 }, new Date()];
-console.log(`Our mixed array looks like this: "${mixed}"`); // let's see what it looks like in the console
+console.log(`Our mixed array looks like this:`, mixed); // let's see what it looks like in the console
+
