@@ -11,3 +11,10 @@ const fruit = ["Apple", "Orange", "Pear", "Fig"];
 const mixed = [22, "Hey", true, undefined, null, { a: 1, b: 2 }, new Date()];
 console.log(`Our mixed array looks like this:`, mixed); // let's see what it looks like in the console
 
+// lets initialize a value that we will play around with
+let val;
+
+// get array length
+
+console.log(val);
+console.log(numbers);
