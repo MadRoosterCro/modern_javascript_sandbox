@@ -49,4 +49,10 @@ console.log(
   numbers
 );
 
-
+// adding something at the front of the array
+let valueWeWantToAddAtTheBeginning = 111; // pick a value we want to add at the start
+let val6 = numbers.unshift(valueWeWantToAddAtTheBeginning); // we use .unshift() to add the value
+console.log(
+  `We can se we added ${valueWeWantToAddAtTheBeginning} to the start of our array`,
+  numbers
+);
