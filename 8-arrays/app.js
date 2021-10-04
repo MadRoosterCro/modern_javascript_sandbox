@@ -11,10 +11,17 @@ const fruit = ["Apple", "Orange", "Pear", "Fig"];
 const mixed = [22, "Hey", true, undefined, null, { a: 1, b: 2 }, new Date()];
 console.log(`Our mixed array looks like this:`, mixed); // let's see what it looks like in the console
 
-// lets initialize a value that we will play around with
-let val;
+// we will play a bit with the numbers array
+console.log(numbers);
 
 // get array length
+let val = numbers.length;
 
-console.log(val);
-console.log(numbers);
+// check if is array
+let val1 = Array.isArray(numbers); // a method to see if something is actually an array
+console.log(val1);
+
+// get single value
+let indexValue = 3; // remember that index starts from 0, so index 3 is actually 4th position in the array
+let val2 = numbers[indexValue]; // we pass the index value in the [] brackets
+console.log(`The value on index ${indexValue} is`, val2); // and we confirm that 54 is on index 3
