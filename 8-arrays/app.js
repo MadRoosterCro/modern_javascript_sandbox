@@ -30,7 +30,7 @@ console.log(`The value on index ${indexValue} is`, val2); // and we confirm that
 let newValueIndex = 2; // pick what index we want to change
 let val3 = (numbers[newValueIndex] = 100); // set the value at index we picked to the new desired value
 console.log(`We just set the value at index ${newValueIndex} to`, val3);
-console.log(numbers); // in the console you can now see we mutated the original array
+console.log(numbers); // in the console you can now see we changed the original array
 
 // find index of a value
 let findTheIndexOfThisValue = 12; // here we pick a value that we know it exists in our array numbers
@@ -39,3 +39,14 @@ console.log(
   `We can now see that the index of value ${findTheIndexOfThisValue} is`,
   val4
 );
+
+// Array mutation
+// adding something to the end of the array
+let valueWeWantToAddAtTheEnd = 555; // pick a value we want to add at the end
+let val5 = numbers.push(valueWeWantToAddAtTheEnd); // we use .push() to add the value
+console.log(
+  `We can se we added ${valueWeWantToAddAtTheEnd} to the end of our array`,
+  numbers
+);
+
+
