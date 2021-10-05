@@ -123,3 +123,21 @@ console.log(
   `Now the joined numbers array is sorted from highest to lowest number ==>`,
   reverseSortedJoinedArray
 );
+
+// find method
+// we will create a new array of numbers since we mutated the last one
+const newNumbers = [51, 54, 77, 34, 55, 789, 2];
+console.log(newNumbers);
+// lets make a very simple function which returns if parameter is less than 50
+function under50(x) {
+  return x < 50;
+}
+let val12 = newNumbers.find(under50);
+console.log(`The first value under 50 that our function found is`, val12);
+
+// if we want to find numbers over 50, we just change that sign
+function over50(x) {
+  return x > 50;
+}
+let val13 = newNumbers.find(over50);
+console.log(`The first value over 50 that our function found is`, val13);
