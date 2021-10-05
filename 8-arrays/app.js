@@ -70,3 +70,16 @@ console.log(
   `We can see that we removed ${valueWeWantToAddAtTheBeginning} from the start of the array`,
   numbers
 );
+
+// we can also take out values from any place in the array
+let indexOfStartValue = 5;
+let howManyValuesToRemove = 1;
+let val9 = numbers.splice(indexOfStartValue, howManyValuesToRemove);
+// first value here is the index from which we want to start removing
+// second value is the number of values we want to remove, if we say 1, it will remove just the value at the given index
+// if we say 2 it will remove the value at the given index and the next one
+console.log(
+  `We started from index ${indexOfStartValue} and from there we removed ${howManyValuesToRemove} value(s), we can confirm this by looking at the numbers array ==>`,
+  numbers
+);
+
