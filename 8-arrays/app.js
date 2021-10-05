@@ -64,3 +64,9 @@ console.log(
   numbers
 );
 
+// take stuff from the beginning of the array
+let val8 = numbers.shift();
+console.log(
+  `We can see that we removed ${valueWeWantToAddAtTheBeginning} from the start of the array`,
+  numbers
+);
