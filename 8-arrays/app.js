@@ -56,3 +56,11 @@ console.log(
   `We can se we added ${valueWeWantToAddAtTheBeginning} to the start of our array`,
   numbers
 );
+
+// take stuff from the end of the array
+let val7 = numbers.pop(); // .pop() will remove the last member of the array
+console.log(
+  `We can see that we removed ${valueWeWantToAddAtTheEnd} from the end of the array`,
+  numbers
+);
+
