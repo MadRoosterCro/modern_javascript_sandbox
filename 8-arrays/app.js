@@ -83,3 +83,10 @@ console.log(
   numbers
 );
 
+// we can reverse the array
+let val10 = numbers.reverse(); // .reverse() reverses the array
+console.log(`We can see that the array is in reverse order`, numbers);
+
+// Array concatenation
+let joinedArray = numbers.concat(numbers2); // we added numbers2 array to the numbers array
+console.log(`We concatenated 2 arrays and now it looks like this`, joinedArray);
