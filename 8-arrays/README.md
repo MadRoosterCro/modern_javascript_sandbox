@@ -39,37 +39,37 @@ console.log(arr[arr.length - 1]) // logs 'last element'
 
 #### Instance methods
 
-| Method              | Description                                                                                                                         |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| `.at()`             | Returns the array item at the given index. Accepts negative integers, which count back from the last item.                          |
-| `.concat()`         | Returns a new array that is this array joined with other array(s) and/or value(s).                                                  |
-| `.copyWithin()`     | Copies a sequence of array elements within the array.                                                                               |
-| `.entries()`        | Returns a new array iterator object that contains the key/value pairs for each index in the array.                                  |
-| `.every()`          | Returns `true` if every element in this array satisfies the testing function.                                                       |
-| `.fill()`           | Fills all the elements of an array from a start index to an end index with a static value.                                          |
-| `.filter()`         | Returns a new array containing all elements of the calling array for which the provided filtering function returns `true`.          |
-| `.find()`           | Returns the found `element` in the array, if some element in the array satisfies the testing function, or `undefined` if not found. |
-| `.findIndex()`      | Returns the found index in the array, if an element in the array satisfies the testing function, or `-1` if not found.              |
-| `.flat()`           |                                                                                                                                     |
-| `.flatMap()`        |                                                                                                                                     |
-| `.forEach()`        |                                                                                                                                     |
-| `.includes()`       |                                                                                                                                     |
-| `.indexOf()`        |                                                                                                                                     |
-| `.join()`           |                                                                                                                                     |
-| `.keys()`           |                                                                                                                                     |
-| `.lastIndexOf()`    |                                                                                                                                     |
-| `.map()`            |                                                                                                                                     |
-| `.pop()`            |                                                                                                                                     |
-| `.push()`           |                                                                                                                                     |
-| `.reduce()`         |                                                                                                                                     |
-| `.reduceRight()`    |                                                                                                                                     |
-| `.reverse()`        |                                                                                                                                     |
-| `.shift()`          |                                                                                                                                     |
-| `.slice()`          |                                                                                                                                     |
-| `.some()`           |                                                                                                                                     |
-| `.sort()`           |                                                                                                                                     |
-| `.splice()`         |                                                                                                                                     |
-| `.toLocaleString()` |                                                                                                                                     |
-| `.toString()`       |                                                                                                                                     |
-| `.unshift()`        |                                                                                                                                     |
-| `.values()`         |                                                                                                                                     |
+| Method              | Description                                                                                                                                 |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| `.at()`             | Returns the array item at the given index. Accepts negative integers, which count back from the last item.                                  |
+| `.concat()`         | Returns a new array that is this array joined with other array(s) and/or value(s).                                                          |
+| `.copyWithin()`     | Copies a sequence of array elements within the array.                                                                                       |
+| `.entries()`        | Returns a new array iterator object that contains the key/value pairs for each index in the array.                                          |
+| `.every()`          | Returns `true` if every element in this array satisfies the testing function.                                                               |
+| `.fill()`           | Fills all the elements of an array from a start index to an end index with a static value.                                                  |
+| `.filter()`         | Returns a new array containing all elements of the calling array for which the provided filtering function returns `true`.                  |
+| `.find()`           | Returns the found `element` in the array, if some element in the array satisfies the testing function, or `undefined` if not found.         |
+| `.findIndex()`      | Returns the found index in the array, if an element in the array satisfies the testing function, or `-1` if not found.                      |
+| `.flat()`           | Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.                                 |
+| `.flatMap()`        | Returns a new array formed by applying a given callback function to each element of the array, and then flattening the result by one level. |
+| `.forEach()`        | Calls a function for each element in the array.                                                                                             |
+| `.includes()`       | Determines whether the array contains a value, returning `true` or `false` as appropriate.                                                  |
+| `.indexOf()`        ||
+| `.join()`           ||
+| `.keys()`           ||
+| `.lastIndexOf()`    ||
+| `.map()`            ||
+| `.pop()`            |                                                                                                                                             |
+| `.push()`           |                                                                                                                                             |
+| `.reduce()`         |                                                                                                                                             |
+| `.reduceRight()`    |                                                                                                                                             |
+| `.reverse()`        |                                                                                                                                             |
+| `.shift()`          |                                                                                                                                             |
+| `.slice()`          |                                                                                                                                             |
+| `.some()`           |                                                                                                                                             |
+| `.sort()`           |                                                                                                                                             |
+| `.splice()`         |                                                                                                                                             |
+| `.toLocaleString()` |                                                                                                                                             |
+| `.toString()`       |                                                                                                                                             |
+| `.unshift()`        |                                                                                                                                             |
+| `.values()`         |                                                                                                                                             |
