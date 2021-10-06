@@ -54,11 +54,11 @@ console.log(arr[arr.length - 1]) // logs 'last element'
 | `.flatMap()`        | Returns a new array formed by applying a given callback function to each element of the array, and then flattening the result by one level. |
 | `.forEach()`        | Calls a function for each element in the array.                                                                                             |
 | `.includes()`       | Determines whether the array contains a value, returning `true` or `false` as appropriate.                                                  |
-| `.indexOf()`        ||
-| `.join()`           ||
-| `.keys()`           ||
-| `.lastIndexOf()`    ||
-| `.map()`            ||
+| `.indexOf()`        | Returns the first (least) index of an element within the array equal to an element, or `-1` if none is found.                               |
+| `.join()`           | Joins all elements of an array into a string.                                                                                               |
+| `.keys()`           | Returns a new array iterator that contains the keys for each index in the array.                                                            |
+| `.lastIndexOf()`    | Returns the last (greatest) index of an element within the array equal to an element, or `-1` if none is found.                             |
+| `.map()`            |                                                                                                                                             |
 | `.pop()`            |                                                                                                                                             |
 | `.push()`           |                                                                                                                                             |
 | `.reduce()`         |                                                                                                                                             |
