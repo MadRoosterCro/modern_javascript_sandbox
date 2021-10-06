@@ -3,7 +3,7 @@
 Array class is a global object that is used in the construction of arrays.
 
 Arrays are list-like objects which has methods to perform traversal and mutation operations.
-Array has length depending on the number of its elements.
+Array has `length` depending on the number of its elements.
 
 Neither the number of the elements in the array nor the types of the elements are fixed.
 
@@ -58,18 +58,18 @@ console.log(arr[arr.length - 1]) // logs 'last element'
 | `.join()`           | Joins all elements of an array into a string.                                                                                               |
 | `.keys()`           | Returns a new array iterator that contains the keys for each index in the array.                                                            |
 | `.lastIndexOf()`    | Returns the last (greatest) index of an element within the array equal to an element, or `-1` if none is found.                             |
-| `.map()`            |                                                                                                                                             |
-| `.pop()`            |                                                                                                                                             |
-| `.push()`           |                                                                                                                                             |
-| `.reduce()`         |                                                                                                                                             |
-| `.reduceRight()`    |                                                                                                                                             |
-| `.reverse()`        |                                                                                                                                             |
-| `.shift()`          |                                                                                                                                             |
-| `.slice()`          |                                                                                                                                             |
-| `.some()`           |                                                                                                                                             |
-| `.sort()`           |                                                                                                                                             |
-| `.splice()`         |                                                                                                                                             |
-| `.toLocaleString()` |                                                                                                                                             |
-| `.toString()`       |                                                                                                                                             |
-| `.unshift()`        |                                                                                                                                             |
-| `.values()`         |                                                                                                                                             |
+| `.map()`            | Returns a new array containing the results of calling a function on every element in this array.                                            |
+| `.pop()`            | Removes the last element from an array and returns that element.                                                                            |
+| `.push()`           | Adds one or more elements to the end of an array, and returns the new `length` of the array.                                                |
+| `.reduce()`         | Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.                 |
+| `.reduceRight()`    | Apply a function against an accumulator and each value of the array (from right-to-left) as to reduce it to a single value.                 |
+| `.reverse()`        | Reverses the order of the elements of an array in place. (First becomes the last, last becomes first.)                                      |
+| `.shift()`          | Removes the first element from an array and returns that element.                                                                           |
+| `.slice()`          | Extracts a section of the calling array and returns a new array.                                                                            |
+| `.some()`           | Returns `true` if at least one element in this array satisfies the provided testing function.                                               |
+| `.sort()`           | Sorts the elements of an array in place and returns the array.                                                                              |
+| `.splice()`         | Adds and/or removes elements from an array.                                                                                                 |
+| `.toLocaleString()` | Returns a localized string representing the array and its elements.                                                                         |
+| `.toString()`       | Returns a string representing the array and its elements.                                                                                   |
+| `.unshift()`        | Adds one or more elements to the front of an array, and returns the new `length` of the array.                                              |
+| `.values()`         | Returns a new array iterator object that contains the values for each index in the array.                                                   |
