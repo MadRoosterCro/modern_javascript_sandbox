@@ -141,3 +141,6 @@ function over50(x) {
 }
 let val13 = newNumbers.find(over50);
 console.log(`The first value over 50 that our function found is`, val13);
+
+
+// as I said, do not worry about the functions for now, we will talk about them in a separate lesson
