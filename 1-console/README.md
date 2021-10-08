@@ -10,3 +10,9 @@ Open `index.html` in your favorite browser and then open developer tools to see 
 > This is a good time to start your Live server if you installed the extension for it.
 
 There are some examples already in the `app.js` file but feel free to play around and get a grip on how changing stuff in there affects the console in your browsers developer tools.
+
+## console.log()
+
+The Holy Grail of every developer!
+
+`console.log()` is a method that outputs a message to the web console. The message can be a string or any JavaScript object. It can even be more than just one JS object.
