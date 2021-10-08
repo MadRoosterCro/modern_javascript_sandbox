@@ -1,4 +1,4 @@
-# Console
+## Easy start
 
 Ok, glad you are here, let's start easy!
 
@@ -11,22 +11,12 @@ Open `index.html` in your favorite browser and then open developer tools to see 
 
 There are some examples already in the `app.js` file but feel free to play around and get a grip on how changing stuff in there affects the console in your browsers developer tools.
 
+# THE CONSOLE!
 
+The `console` object provides access to the browser's debugging console.
+This object can be accessed from any global object and it has a lot of usefull methods. I will list them here but there is one that we will start with and that is `console.log()`!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-## console.log()
+### console.log()
 
 The Holy Grail of every developer!
 
@@ -44,4 +34,3 @@ where `obj1 ... objN` is a list of JavaScript objects,
 `msg` is a JavaScript string containing substitution strings
 
 and `subst1 ... substN` are JavaScript objects with which to replace substitution strings in the `msg` for additional control over the output.
-
