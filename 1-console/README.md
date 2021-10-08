@@ -43,19 +43,28 @@ This way you are sure you are seeing the value of obj at the moment you log it. 
 
 # All console methods
 
-| Method | Decription |
-| ------ | ---------- |
-|        |            |
-|        |            |
-|        |            |
-|        |            |
-|        |            |
-|        |            |
-|        |            |
-|        |            |
-|        |            |
-|        |            |
-|        |            |
-|        |            |
-|        |            |
-|        |            |
+| Method                   | Decription |
+| ------------------------ | ---------- |
+| console.assert()         |            |
+| console.clear()          |            |
+| console.count()          |            |
+| console.countReset()     |            |
+| console.debug()          |            |
+| console.dir()            |            |
+| console.dirxml()         |            |
+| console.error()          |            |
+| console.exception()      |            |
+| console.group()          |            |
+| console.groupCollapsed() |            |
+| console.groupEnd()       |            |
+| console.info()           |            |
+| console.log()            |            |
+| console.profile()        |            |
+| console.profileEnd()     |            |
+| console.table()          |            |
+| console.time()           |            |
+| console.timeEnd()        |            |
+| console.timeLog()        |            |
+| console.timeStamp()      |            |
+| console.trace()          |            |
+| console.warn()           |            |
