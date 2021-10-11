@@ -49,4 +49,19 @@ const person1 = {
 console.log(`The year of birth for person1 is `, person1.getBirthYear());
 
 // arrays of objects
-const people = [{}, {}];
+const people = [
+  {
+    name: 'John',
+    age: 68,
+  },
+  {
+    name: 'Glenne',
+    age: 62,
+  },
+];
+
+for (let i = 0; i < people.length; i++) {
+  console.log(`One of the people in our array is `, people[i].name);
+}
+// this above is just a for loop that will iterate through our array and print out each member
+// we will cover loops in a separate lesson, this was just to show the possibilities
