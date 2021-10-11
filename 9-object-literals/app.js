@@ -1,7 +1,7 @@
 const person = {
   firstName: 'John',
   lastName: 'Malkovich',
-  age: 67,
+  age: 68,
   email: 'example@example.com',
   hobbies: ['music', 'acting', 'sports'],
   address: {
@@ -9,7 +9,7 @@ const person = {
     state: 'Massachusetts',
   },
   getBirthYear: function () {
-    return 1953;
+    return 1953; // just a function returning the year of birth
   },
 };
 
@@ -35,4 +35,18 @@ console.log(`The value at index 1 is `, val5);
 let val6 = person.address.state; // notice we can just keep accessing nested objects with dot (.)
 console.log(`The prop(state) value in our nested object is `, val6);
 let val7 = person.getBirthYear();
-console.log(`The year of birth of the person is ${val7}`, val7);
+console.log(`The year of birth of the person is`, val7);
+
+// we can access other properties in our objects, we can refactor the getBirthYear function
+const person1 = {
+  age: 68,
+  getBirthYear: function () {
+    // inside the object we can use this keyword, we will cover 'this' later on
+    return 2021 - this.age;
+  },
+};
+
+console.log(`The year of birth for person1 is `, person1.getBirthYear());
+
+// arrays of objects
+const people = [{}, {}];
