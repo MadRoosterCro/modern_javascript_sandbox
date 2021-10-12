@@ -19,3 +19,19 @@ console.log(`The current month is at position `, val2);
  * so why is it 1 number less than we expected?
  * it is because it's 0 based, remember the indexes? so the starting position is actually 0 and not 1
  */
+
+// same thing happens with getting current day, week starts at sunday
+let val3 = today.getDay();
+console.log(`Today is `, val3);
+
+// getting current year
+let val4 = today.getFullYear();
+console.log(`Current year is `, val4);
+
+// getting current hours, minutes and seconds
+let val5 = today.getHours();
+let val6 = today.getMinutes();
+let val7 = today.getSeconds();
+console.log(
+  `Currently its ${val5} hours, ${val6} minutes and ${val7} seconds.`
+);
