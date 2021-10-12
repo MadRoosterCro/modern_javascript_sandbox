@@ -2,7 +2,7 @@
 
 Object literal is a list of zero or more pairs of property names and associated values of and object. The mentioned pair of properites are enclosed in curly braces (`{}`).
 
-Let's examine the following example of and object literal  from ***MDN***:
+Let's examine the following example of and object literal from **_MDN_**:
 
 ```sh
 const sales = 'Toyota';
@@ -21,3 +21,5 @@ console.log(car.myCar);   // Saturn
 console.log(car.getCar);  // Honda
 console.log(car.special); // Toyota
 ```
+
+The following is an example of an object literal. The first element of the `car` object defines a property, `myCar`, and assigns to it a new string, `"Saturn"`; the second element, the `getCar` property, is immediately assigned the result of invoking the function `(carTypes("Honda"))`; the third element, the `special` property, uses an existing variable (`sales`).
