@@ -36,4 +36,15 @@ console.log(car.manyCars[7]); // Mazda
 
 Object property names can be any string, including an empty string. If the property name is not a valid identifier or number, it must be enclosed in quotes.
 
-Property names that are not valid identifiers cannot be accessed as a dot (`.`) property, but can be accessed and set with the array-like notation(`"[]"`).
+Property names that are not valid identifiers cannot be accessed as a dot (`.`) property, but can be accessed and set with the array-like notation(`[]`).
+
+```sh
+const unusualPropertyNames = {
+    '' : 'An empty string',
+    '!': 'Bang!',
+}
+console.log(unusualPropertyNames.'');   // SyntaxError: Unexpected string
+console.log(unusualPropertyNames['']);  // An empty string
+console.log(unusualPropertyNames.!);    // SyntaxError: Unexpected token !
+console.log(unusualPropertyNames['!']); // Bang!
+```
