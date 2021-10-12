@@ -13,7 +13,7 @@ console.log(val1);
 
 // getting current month
 let val2 = today.getMonth();
-console.log(`The current month is `, val2);
+console.log(`The current month is at position `, val2);
 /**
  * you might notice that the console will print a number that is supposed to represent the current month
  * so why is it 1 number less than we expected?
