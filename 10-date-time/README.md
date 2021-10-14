@@ -29,3 +29,52 @@ There are several ways to get the date in various formats, as well as to perform
 | `Date.parse()` | Parses a string representation of a date and returns the number of milliseconds since 1 January, 1970, 00:00:00 UTC, with leap seconds ignored.                                         |
 | `Date.UTC()`   | Accepts the same parameters as the longest form of the constructor (i.e. 2 to 7) and returns the number of milliseconds since January 1, 1970, 00:00:00 UTC, with leap seconds ignored. |
 
+### Instance methods
+
+| `getDate()`          |     |
+| -------------------- | --- |
+| getDay()             |     |
+| getFullYear()        |     |
+| getHours()           |     |
+| getMilliseconds()    |     |
+| getMinutes()         |     |
+| getMonth()           |     |
+| getSeconds()         |     |
+| getTime()            |     |
+| getTimezoneOffset()  |     |
+| getUTCDate()         |     |
+| getUTCDay()          |     |
+| getUTCFullYear()     |     |
+| getUTCHours()        |     |
+| getUTCMilliseconds() |     |
+| getUTCMinutes()      |     |
+| getUTCMonth()        |     |
+| getUTCSeconds()      |     |
+| getYear()            |     |
+| setDate()            |     |
+| setFullYear()        |     |
+| setHours()           |     |
+| setMilliseconds()    |     |
+| setMinutes()         |     |
+| setMonth()           |     |
+| setSeconds()         |     |
+| setTime()            |     |
+| setUTCDate()         |     |
+| setUTCFullYear()     |     |
+| setUTCHours()        |     |
+| setUTCMilliseconds() |     |
+| setUTCMinutes()      |     |
+| setUTCMonth()        |     |
+| setUTCSeconds()      |     |
+| setYear()            |     |
+| toDateString()       |     |
+| toISOString()        |     |
+| toJSON()             |     |
+| toGMTString()        |     |
+| toLocaleDateString() |     |
+| toLocaleString()     |     |
+| toLocaleTimeString() |     |
+| toString()           |     |
+| toTimeString()       |     |
+| toUTCString()        |     |
+| valueOf()            |     |
