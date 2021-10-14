@@ -10,3 +10,8 @@ The `Date` object in JavaScript is fundamentally specified as milliseconds elaps
 
 > IMPORTANT NOTE: While the time value of the Date object is UTC, the basic method to fetch the date and time of its components all work in the local (host system) time zone.
 
+### Date format and time zone conversion
+
+There are several ways to get the date in various formats, as well as to perform time zone conversion. Particlarly useful are the functions that output the date and time in UTC, which is a global standard time defined by the World Time Standard.
+
+> NOTE: You may have heard of the GMT, which is the same as UTC.
