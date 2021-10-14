@@ -15,3 +15,17 @@ The `Date` object in JavaScript is fundamentally specified as milliseconds elaps
 There are several ways to get the date in various formats, as well as to perform time zone conversion. Particlarly useful are the functions that output the date and time in UTC, which is a global standard time defined by the World Time Standard.
 
 > NOTE: You may have heard of the GMT, which is the same as UTC.
+
+### Constructor
+
+| `Date()`    | When called as a function, returns a string representation of the current date and time. |
+| ----------- | ---------------------------------------------------------------------------------------- |
+| `newDate()` | When called as a constructor, returns a new `date` object.                               |
+
+### Static methods
+
+| `Date.now()`   | Returns the numeric value corresponding to the current time—the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC, with leap seconds ignored.                           |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Date.parse()` | Parses a string representation of a date and returns the number of milliseconds since 1 January, 1970, 00:00:00 UTC, with leap seconds ignored.                                         |
+| `Date.UTC()`   | Accepts the same parameters as the longest form of the constructor (i.e. 2 to 7) and returns the number of milliseconds since January 1, 1970, 00:00:00 UTC, with leap seconds ignored. |
+
