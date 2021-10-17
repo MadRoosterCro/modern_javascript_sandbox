@@ -44,4 +44,4 @@ p.p.s. I will also show you how markdown works so your project/repo docummentati
 > NOTE: If you start live-server, don't get confused by the different lesson directories, it will host all of the directories in the root, so just pick the lesson you are working on and keep on rockin!
 
 p.p.p.s.
-It is getting ridiculous with the peepees, I know, but if you have any questions feel free to contact me on the socials!
+It is getting ridiculous with the peepees, I know, but if you have any questions feel free to 
