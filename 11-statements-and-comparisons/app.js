@@ -43,3 +43,26 @@ if (typeof id !== 'undefined') {
   console.log(`The ID is not defined!`);
 }
 
+// Greater or less than comparison
+if (id >= 200) {
+  // >= greater or equal operator, we can obviously use less or equal operator <=
+  console.log(`Id is greater than 200`);
+} else {
+  console.log(`Id is less than 200`);
+}
+
+// If else operator is
+// we can chain conditions with else if
+const color = 'red'; // try changing this value and see the outcomes in the browser console
+
+if (color === 'red') {
+  console.log(`Color is red`);
+} else if (color === 'green') {
+  console.log(`Color is green`);
+} else if (color === 'yellow') {
+  console.log(`Color is yellow`);
+} else {
+  // we use else for the final statement
+  console.log(`Color is not red, green or yellow`);
+}
+
