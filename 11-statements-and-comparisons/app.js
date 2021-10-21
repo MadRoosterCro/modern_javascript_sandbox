@@ -81,14 +81,30 @@ if (age > 0 && age < 12) {
   console.log(`${name} is an adult!`);
 }
 
-const newName = 'Glenne';
-const newAge = 62;
-
 // or ||
 // example if we have a competiton where only people from 18-65 can participate
-if (newAge < 18 || newAge > 65) {
+if (age < 18 || age > 65) {
   // || operator checks if either one of the conditions are true
-  console.log(`${newName} can not participate!`);
+  console.log(`${name} can not participate!`);
 } else {
-  console.log(`${newName} can participate!`);
+  console.log(`${name} can participate!`);
 }
+
+// a couple of shorthands:
+
+// TERNARY OPERATOR ?
+const number = 555;
+console.log(number === 555 ? 'CORRECT' : 'INCORRECT');
+// ? signifies if
+// : signifies else
+
+/**
+ * we could have written the above example like this:
+ * if(number === 555) {
+ * console.log('CORRECT')
+ * } else {
+ * console.log('INCORRECT')
+ * }
+ *
+ * we can see how shorthands are useful
+ */
