@@ -56,3 +56,27 @@ There are a few comparison operations in JavaScript. For now let's inspect the 2
 - Strict equality comparison (`===`)
   - also called `strict equality`, `identity` or `triple equals`
   - performs same comparison as `Abstract equality` (including `NaN`, `-0` and `+0`) but this time without type conversion. So if the type differs, `false` is returned.
+
+## Loose equality `==`
+
+- Loose equality compares two values for equality **after** converting both values to a common type. After the conversion, the final comparrison is performed exactly like `Strict equality`.
+
+- Loose equality is **symmetric**, meaning that `A == B` has identical semantics to `B == A` for any values of `A` and `B`.
+
+- `undefined` and `null` are loosely equal, meaning `undefined == null` is true, and `null == undefined` is also true.
+
+All primitives and objects are loosly unequal to `undefined` and `null`.
+
+## Strict equality `===`
+
+Strict equality compares two values for equality. Neither one value is converted to some other value before being compared.
+
+- If the compared values have different types, values are considered unequal.
+
+- IF the values have the same type, are not numbers and have the same value, the are considered equal.
+
+- If both values are numbers, they are considered equal if they are both not `NaN` and are the same value, or if one is `+0` and one is `-0`.
+
+> NOTE: Strict equality is almost always the correct comparison operation to use!
+
+For all values except numbers, Strict comparison uses obvious intuitive semantics: a value is only equal to itself.
