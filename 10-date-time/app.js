@@ -32,6 +32,14 @@ console.log(`Current year is `, val4);
 let val5 = today.getHours();
 let val6 = today.getMinutes();
 let val7 = today.getSeconds();
+let val8 = today.getMilliseconds();
 console.log(
-  `Currently its ${val5} hours, ${val6} minutes and ${val7} seconds.`
+  `Currently its ${val5} hours, ${val6} minutes, ${val7} seconds and ${val8} milliseconds`
 );
+
+let val9 = today.getTime();
+console.log(
+  `This is the current timestamp: ${val9}. It represents the number of seconds since January 1st 1970.`
+);
+
+// You can set these as well, check the methods in the readme.md file for this lesson
