@@ -43,3 +43,16 @@ else {
 ```
 
 We can just "chain" the statemets like in this example.
+
+# Comparisons
+
+There are a few comparison operations in JavaScript. For now let's inspect the 2 main ones:
+
+- Abstract equality comparison (`==`)
+
+  - sometimes called `loose equality` or just `double equals`
+  - performs a type conversion when comparing two things, handles `NaN`, `-0` and `+0`. (Meaning that `NaN != NaN`, and `-0 == +0`)
+
+- Strict equality comparison (`===`)
+  - also called `strict equality`, `identity` or `triple equals`
+  - performs same comparison as `Abstract equality` (including `NaN`, `-0` and `+0`) but this time without type conversion. So if the type differs, `false` is returned.
