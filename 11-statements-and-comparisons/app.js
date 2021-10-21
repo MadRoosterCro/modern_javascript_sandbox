@@ -66,3 +66,29 @@ if (color === 'red') {
   console.log(`Color is not red, green or yellow`);
 }
 
+// Logical operators
+
+const name = 'John';
+const age = 67; // try changing the age to see the differences in console
+
+// and &&
+if (age > 0 && age < 12) {
+  // && operator makes sure that both conditions are true
+  console.log(`${name} is a child!`);
+} else if (age >= 13 && age <= 19) {
+  console.log(`${name} is a teenager!`);
+} else {
+  console.log(`${name} is an adult!`);
+}
+
+const newName = 'Glenne';
+const newAge = 62;
+
+// or ||
+// example if we have a competiton where only people from 18-65 can participate
+if (newAge < 18 || newAge > 65) {
+  // || operator checks if either one of the conditions are true
+  console.log(`${newName} can not participate!`);
+} else {
+  console.log(`${newName} can participate!`);
+}
