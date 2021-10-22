@@ -42,7 +42,7 @@ else {
 }
 ```
 
-We can just "chain" the statemets like in this example.
+We can just "chain" the statemets like in this example. We call this process **nesting**.
 
 # Comparisons
 
