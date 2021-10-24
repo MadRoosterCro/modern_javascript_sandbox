@@ -79,4 +79,4 @@ Strict equality compares two values for equality. Neither one value is converted
 
 > NOTE: Strict equality is almost always the correct comparison operation to use!
 
-For all values except numbers, Strict comparison uses obvious intuitive semantics => mean
+For all values except numbers, Strict comparison uses obvious intuitive semantics => meaning that a value
