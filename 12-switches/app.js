@@ -48,3 +48,4 @@ switch (new Date().getDay()) {
 
 console.log(`Today is ${day}!`);
 
+// generaly speaking, switches are pretty simple/intuitive to understand
