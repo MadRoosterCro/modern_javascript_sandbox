@@ -35,3 +35,44 @@ console.log(newGreetingWithName('John', 'Malkovich')); // by passing parameters 
 /** if we delete the parameters here, the function will fall back
  * to the default values and print 'Hello John Doe!' to the console
  */
+
+// Function expresions
+
+// creating a function as a variable for assignment
+
+const square = function (x = 2) {
+  // again we set 2 as the default value
+  return x * x;
+};
+console.log(square(5));
+
+// Immediately invocable function expressions - IIFEs
+
+(function (name) {
+  console.log(`Hello ${name}!`);
+})('Glenne');
+
+// Property methods
+// we can put functions inside of objects that
+
+const todo = {
+  add: function () {
+    console.log(`Add todo..`);
+  },
+  edit: function (id) {
+    // edit usually takes a param, commonly ID so we know what we want to edit
+    console.log(`Edit todo ${id}`);
+  },
+};
+
+// we can define methods outside of the object (not my favorite)
+
+todo.delete = function (id) {
+  console.log(`Delete todo ${id}`);
+};
+
+// we mentioned this before, now you can access the created method with .() at the end of the object!
+
+todo.add();
+todo.edit(22);
+todo.delete(21);
