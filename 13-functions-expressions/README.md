@@ -164,3 +164,61 @@ function bob (a){
 let bob = a => a + 100;
 ```
 
+## Basic syntax
+
+One param. With simple expression return is not needed:
+
+```sh
+param => expression
+```
+
+Multiple params require parentheses. With simple expression return is not needed:
+
+```sh
+(param1, paramN) => expression
+```
+
+Multiline statements require body braces and return:
+
+```sh
+param => {
+  let a = 1;
+  return a + param;
+}
+```
+
+Multiple params require parentheses. Multiline statements require body braces and return:
+
+```sh
+(param1, paramN) => {
+   let a = 1;
+   return a + param1 + paramN;
+}
+```
+
+## Advanced syntax
+
+To return an object literal expression requires parentheses around expression:
+
+```sh
+params => ({foo: "a"}) // returning the object {foo: "a"}
+```
+
+Rest parameters are supported:
+
+```sh
+(a, b, ...r) => expression
+```
+
+Default parameters are supported:
+
+```sh
+(a=400, b=20, c) => expression
+```
+
+Destructuring within params supported:
+
+```sh
+([a, b] = [10, 20]) => a + b;  // result is 30
+({ a, b } = { a: 10, b: 20 }) => a + b; // result is 30
+```
