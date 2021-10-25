@@ -1,6 +1,6 @@
 // This is going to be a short but important lesson!
 
-const color = 'red';
+const color = 'red'; // try changing this to some other color and see the output in the console!
 
 switch (color) {
   case 'red':
