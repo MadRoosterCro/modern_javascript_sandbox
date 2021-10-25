@@ -24,3 +24,14 @@ function greet() {
 // in order the return to the console, we need to wrap it in the console.log() function
 
 console.log(greet());
+
+// Adding parameters to functions
+function newGreetingWithName(firstName = 'John', lastName = 'Doe') {
+  // here we add 2 parameters to the function and declare the default values
+  return `Hello ${firstName} ${lastName}!`;
+}
+console.log(newGreetingWithName('John', 'Malkovich')); // by passing parameters here, we overwrite the default values
+
+/** if we delete the parameters here, the function will fall back
+ * to the default values and print 'Hello John Doe!' to the console
+ */
