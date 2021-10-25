@@ -222,3 +222,5 @@ Destructuring within params supported:
 ([a, b] = [10, 20]) => a + b;  // result is 30
 ({ a, b } = { a: 10, b: 20 }) => a + b; // result is 30
 ```
+
+Seems like a lot of confusing information, but I promise, it will make much more sense when you start using it on real examples.
