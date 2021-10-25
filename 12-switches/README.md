@@ -68,3 +68,28 @@ switch (foo) {
     console.log('default');
 }
 ```
+
+### Multi-`case`:single operation
+
+This is sometimes called "fall-through".
+
+Since there is no `break` after a matched `case` and the flow will continue to execute the next `case` clause regardless of the `case` meeting the criteria, we can take an advantage of this.
+
+Consider the following example:
+
+```sh
+const animal = 'Dog';
+switch (animal) {
+  case 'Cow':
+  case 'Giraffe':
+  case 'Dog':
+  case 'Pig':
+    console.log('This animal is not extinct.');
+    break;
+  case 'Dinosaur':
+  default:
+    console.log('This animal is extinct.');
+}
+```
+
+As we can see, this is a single operation sequential `case` statement in which four different values will execute exactly the same statement.
