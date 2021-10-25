@@ -60,3 +60,107 @@ This is a design pattern also known as Self-executing anonymous function. It con
 
 - The second part creates the immediately invoked function expression `()` through which the JavaScript engine will directly interpret the function.
 
+# **Arrow functions**
+
+An arrow function expression is a compact alternative to a traditional function expression, but is limited and cannot be used in all situations.
+
+#### Difference and limitations
+
+- Does not have its own bindings to `this` or `super`, and should not be used as `methods`.
+- Does not have `new.target` keyword.
+- Not suitable for `call`, `apply` and `bind` methods, which generally rely on establishing a `scope`.
+- Can not be used as constructors.
+- Can not use `yield`, within its body.
+
+Example:
+
+```sh
+const materials = [
+  'Hydrogen',
+  'Helium',
+  'Lithium',
+  'Beryllium'
+];
+
+console.log(materials.map(material => material.length));
+// expected output: Array [8, 6, 7, 9]
+```
+
+#### Comparison of traditional functions vs arrow functions
+
+> Note: Each step along the way is a valid "arrow function"
+
+```sh
+// Traditional Anonymous Function
+function (a){
+  return a + 100;
+}
+
+// Arrow Function Break Down
+
+// 1. Remove the word "function" and place arrow between the argument and opening body bracket
+(a) => {
+  return a + 100;
+}
+
+// 2. Remove the body braces and word "return" -- the return is implied.
+(a) => a + 100;
+
+// 3. Remove the argument parentheses
+a => a + 100;
+```
+
+The { braces } and ( parentheses ) and "return" are required in some cases.
+
+For example, if you have **multiple arguments** or **no arguments**, you'll need to re-introduce parentheses around the arguments:
+
+```sh
+// Traditional Anonymous Function
+function (a, b){
+  return a + b + 100;
+}
+
+// Arrow Function
+(a, b) => a + b + 100;
+
+// Traditional Anonymous Function (no arguments)
+let a = 4;
+let b = 2;
+function (){
+  return a + b + 100;
+}
+
+// Arrow Function (no arguments)
+let a = 4;
+let b = 2;
+() => a + b + 100;
+```
+
+Likewise, if the body requires **additional lines** of processing, you'll need to re-introduce braces **PLUS the "return"** (arrow functions do not magically guess what or when you want to "return"):
+
+```sh
+// Traditional Anonymous Function
+function (a, b){
+  let chuck = 42;
+  return a + b + chuck;
+}
+
+// Arrow Function
+(a, b) => {
+  let chuck = 42;
+  return a + b + chuck;
+}
+```
+
+And finally, for **named functions** we treat arrow expressions like variables:
+
+```sh
+// Traditional Function
+function bob (a){
+  return a + 100;
+}
+
+// Arrow Function
+let bob = a => a + 100;
+```
+
