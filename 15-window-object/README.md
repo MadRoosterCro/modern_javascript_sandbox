@@ -77,10 +77,8 @@ The `Navigator` interface represents the state and the identity of the user agen
 
 ### Window object properties:
 
-You might notice I've purposely skipped the Document object. We will cover that in a separate lesson. :)
-
-| **Property**   | **Description**                                                                                                     |
-| -------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Property**     | **Description**                                                                                                     |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------- |
 | `closed`         | Returns a Boolean value indicating whether a window has been closed or not.                                         |
 | `console`        | Returns a reference to the Console object, which provides methods for logging information to the browser's console. |
 | `defaultStatus`  | Sets or returns the default text in the statusbar of a window.                                                      |
@@ -112,3 +110,35 @@ You might notice I've purposely skipped the Document object. We will cover that 
 | `self`           | Returns the current window.                                                                                         |
 | `status`         | Sets or returns the text in the statusbar of a window.                                                              |
 | `top`            | Returns the topmost browser window.                                                                                 |
+
+### Window object methods:
+
+| **Method**              | **Description** |
+| ----------------------- | --------------- |
+| alert()                 |                 |
+| atob()                  |                 |
+| blur()                  |                 |
+| btoa()                  |                 |
+| clearInterval()         |                 |
+| clearTimeout()          |                 |
+| close()                 |                 |
+| confirm()               |                 |
+| focus()                 |                 |
+| getComputedStyle()      |                 |
+| getSelection()          |                 |
+| matchMedia()            |                 |
+| moveBy()                |                 |
+| moveTo()                |                 |
+| open()                  |                 |
+| print()                 |                 |
+| prompt()                |                 |
+| requestAnimationFrame() |                 |
+| resizeBy()              |                 |
+| resizeTo()              |                 |
+| scrollBy()              |                 |
+| scrollTo()              |                 |
+| setInterval()           |                 |
+| setTimeout()            |                 |
+| stop()                  |                 |
+
+> You might notice I've purposely skipped the Document object. We will cover that in a separate lesson. :)
