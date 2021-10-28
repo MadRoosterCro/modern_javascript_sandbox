@@ -27,11 +27,13 @@ switch (expression) {
 ```
 
 Where
-| `expression` | An expression whose result is matched against each `case` clause. |
-| ------------ | ----------------------------------------------------------------- |
-|`case valueN` _Optional_|A case clause used to match against expression. If the expression matches the specified valueN, the statements inside the case clause are executed until either the end of the switch statement or a break.|
-|`default` _Optional_| A `default` clause => if provided, this clause is executed if the value of `expression` doesn't match any of the `case` clauses.|
-|`break` _Optional_| A statement that ensures that the program "breaks out" of `switch` when the matched `case` stetement is executed. |
+
+|                          | Description                                                                                                                                                                                                 |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `expression`             | An expression whose result is matched against each `case` clause.                                                                                                                                           |
+| `case valueN` _Optional_ | A case clause used to match against expression. If the expression matches the specified valueN, the statements inside the case clause are executed until either the end of the switch statement or a break. |
+| `default` _Optional_     | A `default` clause => if provided, this clause is executed if the value of `expression` doesn't match any of the `case` clauses.                                                                            |
+| `break` _Optional_       | A statement that ensures that the program "breaks out" of `switch` when the matched `case` stetement is executed.                                                                                           |
 
 ## The "flow" of switch statements
 

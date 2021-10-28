@@ -34,11 +34,12 @@ function [name]([param1[, param2[, ..., paramN]]]) {
 ```
 
 Where:
-| | Description |
-|-|-|
-| `name` _Optional_ | The function name that can be omitted. In that case the function is anonymous. |
-| `paramN` _Optional_ | The name of an argument to be passed to the function. |
-| `statements` _Optional_ | The statements which comprise the body of the function. |
+
+|                         | Description                                                                    |
+| ----------------------- | ------------------------------------------------------------------------------ |
+| `name` _Optional_       | The function name that can be omitted. In that case the function is anonymous. |
+| `paramN` _Optional_     | The name of an argument to be passed to the function.                          |
+| `statements` _Optional_ | The statements which comprise the body of the function.                        |
 
 Function expression is very similar to and has almost the same syntax as a function declaration. The main difference between a function expression and a function declaration is the function name, which can be omitted in function expressions to create anonymous functions
 
