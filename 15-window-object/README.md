@@ -52,3 +52,26 @@ The `History` interface allows manipulation of the browser _session history_, pa
 | `pushState()`    | Pushes the given data onto the session history stack with the specified title.                                                                                             |
 | `replaceState()` | Updates the most recent entry on the history stack to have the specified data, title, and, if provided, URL.                                                               |
 
+## Navigator object
+
+The `Navigator` interface represents the state and the identity of the user agent (the browser). It allows scripts to query it and to register themselves to carry on some activites.
+
+##### Properties of the Navigator object:
+
+| `appCodeName`   | Returns the code name of the browser.                                        |
+| --------------- | ---------------------------------------------------------------------------- |
+| `appName`       | Returns the name of the browser.                                             |
+| `appVersion`    | Returns the version information of the browser.                              |
+| `cookieEnabled` | Determines whether cookies are enabled in the browser.                       |
+| `geolocation`   | Returns a Geolocation object that can be used to locate the user's position. |
+| `language`      | Returns the language of the browser.                                         |
+| `onLine`        | Determines whether the browser is online.                                    |
+| `platform`      | Returns for which platform the browser is compiled.                          |
+| `product`       | Returns the engine name of the browser.                                      |
+| `userAgent`     | Returns the user-agent header sent by the browser to the server.             |
+
+##### Methods of the Navigator object:
+
+| `javaEnabled()` | Specifies whether the browser has Java enabled or not. |
+| --------------- | ------------------------------------------------------ |
+
