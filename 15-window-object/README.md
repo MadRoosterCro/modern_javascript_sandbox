@@ -115,20 +115,20 @@ The `Navigator` interface represents the state and the identity of the user agen
 
 | **Method**              | **Description** |
 | ----------------------- | --------------- |
-| alert()                 |                 |
-| atob()                  |                 |
-| blur()                  |                 |
-| btoa()                  |                 |
-| clearInterval()         |                 |
-| clearTimeout()          |                 |
-| close()                 |                 |
-| confirm()               |                 |
-| focus()                 |                 |
-| getComputedStyle()      |                 |
-| getSelection()          |                 |
-| matchMedia()            |                 |
-| moveBy()                |                 |
-| moveTo()                |                 |
+| alert()                 |  Displays an alert box with a message and an OK button               |
+| atob()                  |  Decodes a base-64 encoded string               |
+| blur()                  |  Removes focus from the current window               |
+| btoa()                  |  Encodes a string in base-64               |
+| clearInterval()         |  Clears a timer set with setInterval()               |
+| clearTimeout()          |  Clears a timer set with setTimeout()               |
+| close()                 |   Closes the current window              |
+| confirm()               |  Displays a dialog box with a message and an OK and a Cancel button               |
+| focus()                 | Sets focus to the current window               |
+| getComputedStyle()      |  Gets the current computed CSS styles applied to an element               |
+| getSelection()          |  Returns a Selection object representing the range of text selected by the user               |
+| matchMedia()            |  Returns a MediaQueryList object representing the specified CSS media query string              |
+| moveBy()                |  Moves a window relative to its current position               |
+| moveTo()                |  Moves a window to the specified position               |
 | open()                  |                 |
 | print()                 |                 |
 | prompt()                |                 |
