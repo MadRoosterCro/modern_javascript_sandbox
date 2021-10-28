@@ -18,21 +18,24 @@ There are several ways to get the date in various formats, as well as to perform
 
 ### Constructor
 
-| `Date()`    | When called as a function, returns a string representation of the current date and time. |
+|             | Description                                                                              |
 | ----------- | ---------------------------------------------------------------------------------------- |
+| `Date()`    | When called as a function, returns a string representation of the current date and time. |
 | `newDate()` | When called as a constructor, returns a new `date` object.                               |
 
 ### Static methods
 
-| `Date.now()`   | Returns the numeric value corresponding to the current time—the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC, with leap seconds ignored.                           |
+| Method         | Description                                                                                                                                                                             |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Date.now()`   | Returns the numeric value corresponding to the current time—the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC, with leap seconds ignored.                           |
 | `Date.parse()` | Parses a string representation of a date and returns the number of milliseconds since 1 January, 1970, 00:00:00 UTC, with leap seconds ignored.                                         |
 | `Date.UTC()`   | Accepts the same parameters as the longest form of the constructor (i.e. 2 to 7) and returns the number of milliseconds since January 1, 1970, 00:00:00 UTC, with leap seconds ignored. |
 
 ### Instance methods
 
-| `getDate()`            | Returns the day of the month (`1–31`) for the specified date according to local time.                                                                              |
+| Method                 | Description                                                                                                                                                        |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `getDate()`            | Returns the day of the month (`1–31`) for the specified date according to local time.                                                                              |
 | `getDay()`             | Returns the day of the week (`0–6`) for the specified date according to local time.                                                                                |
 | `getFullYear()`        | Returns the year (4 digits for 4-digit years) of the specified date according to local time.                                                                       |
 | `getHours()`           | Returns the hour (`0–23`) in the specified date according to local time.                                                                                           |
