@@ -14,8 +14,9 @@ The `Location` interface represents the location (URL) of the object it is linke
 
 ##### Properties of the Location object:
 
-| `hash`     | Sets or returns the anchor part (#) of a URL.            |
+| Property   | Description                                              |
 | ---------- | -------------------------------------------------------- |
+| `hash`     | Sets or returns the anchor part (#) of a URL.            |
 | `host`     | Sets or returns the hostname and port number of a URL.   |
 | `hostname` | Sets or returns the hostname of a URL.                   |
 | `href`     | Sets or returns the entire URL.                          |
@@ -27,8 +28,9 @@ The `Location` interface represents the location (URL) of the object it is linke
 
 ##### Methods of the Location object:
 
-| `assing()`  | Loads a new document.                         |
+| Method      | Description                                   |
 | ----------- | --------------------------------------------- |
+| `assing()`  | Loads a new document.                         |
 | `reload()`  | Reloads the current document.                 |
 | `replace()` | Replaces the current document with a new one. |
 
@@ -38,15 +40,17 @@ The `History` interface allows manipulation of the browser _session history_, pa
 
 ##### Properties of the History object:
 
-| `length` _read only_ | Returns an `Integer` representing the number of elements in the session history                                                                                |
+| Property             | Description                                                                                                                                                    |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `length` _read only_ | Returns an `Integer` representing the number of elements in the session history                                                                                |
 | `scrollRestoration`  | Allows web applications to explicitly set default scroll restoration behavior on history navigation. This property can be either `auto` or `manual`.           |
 | `state` _read only_  | Returns an `any` value representing the state at the top of the history stack. This is a way to look at the state without having to wait for a popstate event. |
 
 ##### Methods of the History object:
 
-| `back()`         | This asynchronous method goes to the previous page in session history.                                                                                                     |
+| Method           | Description                                                                                                                                                                |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `back()`         | This asynchronous method goes to the previous page in session history.                                                                                                     |
 | `forward()`      | This asynchronous method goes to the next page in session history.                                                                                                         |
 | `go()`           | Asynchronously loads a page from the session history, identified by its relative location to the current page, for example -1 for the previous page or 1 for the next page |
 | `pushState()`    | Pushes the given data onto the session history stack with the specified title.                                                                                             |
@@ -58,8 +62,9 @@ The `Navigator` interface represents the state and the identity of the user agen
 
 ##### Properties of the Navigator object:
 
-| `appCodeName`   | Returns the code name of the browser.                                        |
+| Property        | Description                                                                  |
 | --------------- | ---------------------------------------------------------------------------- |
+| `appCodeName`   | Returns the code name of the browser.                                        |
 | `appName`       | Returns the name of the browser.                                             |
 | `appVersion`    | Returns the version information of the browser.                              |
 | `cookieEnabled` | Determines whether cookies are enabled in the browser.                       |
@@ -72,8 +77,9 @@ The `Navigator` interface represents the state and the identity of the user agen
 
 ##### Methods of the Navigator object:
 
-| `javaEnabled()` | Specifies whether the browser has Java enabled or not. |
+| Method          | Description                                            |
 | --------------- | ------------------------------------------------------ |
+| `javaEnabled()` | Specifies whether the browser has Java enabled or not. |
 
 ### Window object properties:
 
