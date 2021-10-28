@@ -13,10 +13,10 @@ function name([param[, param,[..., param]]]) {
 ```
 
 Where:
-
-| `name`                  | The name of the function.                               |
-| ----------------------- | ------------------------------------------------------- |
-| `param` _Optional_      | The name of an argumet to be passed to the function.    |
+| | Description |
+|-|-|
+| `name` | The name of the function. |
+| `param` _Optional_ | The name of an argumet to be passed to the function. |
 | `statements` _Optional_ | The statements which comprise the body of the function. |
 
 By default, a function will return `undefined`. To return any other value, the function must have a `return` statement that specifies the return value.
@@ -34,11 +34,11 @@ function [name]([param1[, param2[, ..., paramN]]]) {
 ```
 
 Where:
-
-| `name` _Optional_       | The function name that can be omitted. In that case the function is anonymous. |
-| ----------------------- | ------------------------------------------------------------------------------ |
-| `paramN` _Optional_     | The name of an argument to be passed to the function.                          |
-| `statements` _Optional_ | The statements which comprise the body of the function.                        |
+| | Description |
+|-|-|
+| `name` _Optional_ | The function name that can be omitted. In that case the function is anonymous. |
+| `paramN` _Optional_ | The name of an argument to be passed to the function. |
+| `statements` _Optional_ | The statements which comprise the body of the function. |
 
 Function expression is very similar to and has almost the same syntax as a function declaration. The main difference between a function expression and a function declaration is the function name, which can be omitted in function expressions to create anonymous functions
 
