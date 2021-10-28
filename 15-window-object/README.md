@@ -79,36 +79,36 @@ The `Navigator` interface represents the state and the identity of the user agen
 
 You might notice I've purposely skipped the Document object. We will cover that in a separate lesson. :)
 
-| **Property**   | **Description**                                                                                                    |
-| -------------- | ------------------------------------------------------------------------------------------------------------------ |
-| closed         | Returns a Boolean value indicating whether a window has been closed or not                                         |
-| console        | Returns a reference to the Console object, which provides methods for logging information to the browser's console |
-| defaultStatus  | Sets or returns the default text in the statusbar of a window                                                      |
-| document       | Returns the Document object for the window                                                                         |
-| frameElement   | Returns the `<iframe>` element in which the current window is inserted                                             |
-| frames         | Returns all `<iframe>` elements in the current window                                                              |
-| history        | Returns the History object for the window                                                                          |
-| innerHeight    | Returns the height of the window's content area (viewport) including scrollbars                                    |
-| innerWidth     | Returns the width of a window's content area (viewport) including scrollbars                                       |
-| length         | Returns the number of `<iframe>` elements in the current window                                                    |
-| localStorage   | Allows to save key/value pairs in a web browser. Stores the data with no expiration date                           |
-| location       | Returns the Location object for the window                                                                         |
-| name           | Sets or returns the name of a window                                                                               |
-| navigator      | Returns the Navigator object for the window                                                                        |
-| opener         | Returns a reference to the window that created the window                                                          |
-| outerHeight    | Returns the height of the browser window, including toolbars/scrollbars                                            |
-| outerWidth     | Returns the width of the browser window, including toolbars/scrollbars                                             |
-| pageXOffset    | Returns the pixels the current document has been scrolled (horizontally) from the upper left corner of the window  |
-| pageYOffset    | Returns the pixels the current document has been scrolled (vertically) from the upper left corner of the window    |
-| parent         | Returns the parent window of the current window                                                                    |
-| screen         | Returns the Screen object for the window                                                                           |
-| screenLeft     | Returns the horizontal coordinate of the window relative to the screen                                             |
-| screenTop      | Returns the vertical coordinate of the window relative to the screen                                               |
-| screenX        | Returns the horizontal coordinate of the window relative to the screen                                             |
-| screenY        | Returns the vertical coordinate of the window relative to the screen                                               |
-| sessionStorage | Allows to save key/value pairs in a web browser. Stores the data for one session                                   |
-| scrollX        | An alias of pageXOffset                                                                                            |
-| scrollY        | An alias of pageYOffset                                                                                            |
-| self           | Returns the current window                                                                                         |
-| status         | Sets or returns the text in the statusbar of a window                                                              |
-| top            | Returns the topmost browser window                                                                                 |
+| **Property**   | **Description**                                                                                                     |
+| -------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `closed`         | Returns a Boolean value indicating whether a window has been closed or not.                                         |
+| `console`        | Returns a reference to the Console object, which provides methods for logging information to the browser's console. |
+| `defaultStatus`  | Sets or returns the default text in the statusbar of a window.                                                      |
+| `document`       | Returns the Document object for the window.                                                                         |
+| `frameElement`   | Returns the `<iframe>` element in which the current window is inserted.                                             |
+| `frames`         | Returns all `<iframe>` elements in the current window.                                                              |
+| `history`        | Returns the History object for the window.                                                                          |
+| `innerHeight`    | Returns the height of the window's content area (viewport) including scrollbars.                                    |
+| `innerWidth`     | Returns the width of a window's content area (viewport) including scrollbars.                                       |
+| `length`         | Returns the number of `<iframe>` elements in the current window.                                                    |
+| `localStorage`   | Allows to save key/value pairs in a web browser. Stores the data with no expiration date.                           |
+| `location`       | Returns the Location object for the window.                                                                         |
+| `name`           | Sets or returns the name of a window.                                                                               |
+| `navigator`      | Returns the Navigator object for the window.                                                                        |
+| `opener`         | Returns a reference to the window that created the window.                                                          |
+| `outerHeight`    | Returns the height of the browser window, including toolbars/scrollbars.                                            |
+| `outerWidth`     | Returns the width of the browser window, including toolbars/scrollbars.                                             |
+| `pageXOffset`    | Returns the pixels the current document has been scrolled (horizontally) from the upper left corner of the window.  |
+| `pageYOffset`    | Returns the pixels the current document has been scrolled (vertically) from the upper left corner of the window.    |
+| `parent`         | Returns the parent window of the current window.                                                                    |
+| `screen`         | Returns the Screen object for the window.                                                                           |
+| `screenLeft`     | Returns the horizontal coordinate of the window relative to the screen.                                             |
+| `screenTop`      | Returns the vertical coordinate of the window relative to the screen.                                               |
+| `screenX`        | Returns the horizontal coordinate of the window relative to the screen.                                             |
+| `screenY`        | Returns the vertical coordinate of the window relative to the screen.                                               |
+| `sessionStorage` | Allows to save key/value pairs in a web browser. Stores the data for one session.                                   |
+| `scrollX`        | An alias of pageXOffset.                                                                                            |
+| `scrollY`        | An alias of pageYOffset.                                                                                            |
+| `self`           | Returns the current window.                                                                                         |
+| `status`         | Sets or returns the text in the statusbar of a window.                                                              |
+| `top`            | Returns the topmost browser window.                                                                                 |
