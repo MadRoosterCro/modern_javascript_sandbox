@@ -75,3 +75,37 @@ The `Navigator` interface represents the state and the identity of the user agen
 | `javaEnabled()` | Specifies whether the browser has Java enabled or not. |
 | --------------- | ------------------------------------------------------ |
 
+### Window object properties:
+|**Property**|**Description**|
+|-|-|
+|closed||
+|console||
+|defaultStatus||
+|document||
+|frameElement||
+|frames||
+|history||
+|innerHeight||
+|innerWidth||
+|length||
+|localStorage||
+|location||
+|name||
+|navigator||
+|opener||
+|outerHeight||
+|outerWidth||
+|pageXOffset|Returns the pixels the current document has been scrolled (horizontally) from the upper left corner of the window|
+|pageYOffset|Returns the pixels the current document has been scrolled (vertically) from the upper left corner of the window|
+|parent|Returns the parent window of the current window|
+|screen|Returns the Screen object for the window |
+|screenLeft|Returns the horizontal coordinate of the window relative to the screen|
+|screenTop|Returns the vertical coordinate of the window relative to the screen|
+|screenX|Returns the horizontal coordinate of the window relative to the screen|
+|screenY|Returns the vertical coordinate of the window relative to the screen|
+|sessionStorage|Allows to save key/value pairs in a web browser. Stores the data for one session|
+|scrollX|An alias of pageXOffset|
+|scrollY|An alias of pageYOffset|
+|self|Returns the current window|
+|status|Sets or returns the text in the statusbar of a window|
+|top|Returns the topmost browser window|
