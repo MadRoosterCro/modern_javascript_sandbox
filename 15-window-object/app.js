@@ -54,4 +54,45 @@ console.log(
   `Vertical scroll position at ${scrollVerticalPosition}, Horizontal scroll position at ${scrollHorizontalPosition}`
 ); // it's gonna be zero because we don't actually have a scroll bars at the moment
 
+// LOCATION OBJECT
+console.log(location);
+/**
+ * this will print out our information like port, host, pathname, etc.
+ * alongside with some available methods
+ */
+
+// REDIRECT => we can use a method to redirect
+// window.location.href = 'http://google.com';
+// if you uncomment the line aboce, it will redirect you to google on reload!
+
+// RELOAD
+// window.location.reload()
+// => this will reload the page on a loop, that's why we wouldn't usually use it on a global scope
+
+// HISTORY OBJECT
+
+// we can get browsing history
+// window.history.go(-1); => we can navigate through browsing history like this, negative numbers takes us back a step
+
+let historyLength = window.history.length;
+console.log(historyLength); // this way we see how many different sites we browsed
+
+// NAVIGATOR OBJECT
+
+console.log(navigator); // this loggs all the info on the navigator object
+
+// let's see some usefull stuff from the navigator object
+let navigatorAppName = window.navigator.appName;
+let navAppVersion = window.navigator.appVersion;
+let navUserAgent = window.navigator.userAgent;
+let userOS = window.navigator.platform;
+let userVendor = window.navigator.vendor;
+let userLang = window.navigator.language;
+
+console.log(navigatorAppName);
+console.log(`The version of our browser is: ${navAppVersion}`);
+console.log(navUserAgent);
+console.log(`You are using "${userOS}"`);
+console.log(userVendor);
+console.log(`You are using "${userLang}" language`);
 
