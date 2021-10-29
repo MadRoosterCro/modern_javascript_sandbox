@@ -1,5 +1,7 @@
 # JavaScript Scope
 
+Now that we know about functions, objects and variable in general, we can dive into scope!
+
 Scope in JavaScript just means where the variables we declare are available for use.
 
 JavaScript has 3 types of scope:
@@ -53,3 +55,27 @@ Since local variables are only available inside their functions, variables with 
 > Local variables are created when a function starts and deleted when the function is completed.
 
 ## Function Scope
+
+Each JavaScript function creates a new scope.
+
+Variables defined inside a function are not accessible from outside that function.
+
+Variables declared with `var`, `let` and `const` are similar when declared inside a function, meaning they all have the same Function Scope:
+
+```sh
+function someFunction() {
+    var bestActor = 'John Malkovich'; // Function Scope
+}
+```
+
+```sh
+function someFunction() {
+    let bestActor = 'John Malkovich'; // Function Scope
+}
+```
+
+```sh
+function someFunction() {
+    const bestActor = 'John Malkovich'; // Function Scope
+}
+```
