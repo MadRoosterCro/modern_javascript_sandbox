@@ -79,3 +79,24 @@ function someFunction() {
     const bestActor = 'John Malkovich'; // Function Scope
 }
 ```
+
+# Global Scope
+
+Variables declared globally, outside any function have Global Scope.
+
+Global variables can be accessed from anywhere in the program.
+
+Example:
+
+```sh
+let bestActor = 'John';
+// code here can use variable bestActor
+
+function someFunction() {
+    // code here can use variable bestActor
+}
+```
+
+It is important to notice that objects and functions are also variables and can have different scope!
+
+> IMPORTANT NOTE: It is best not to create global variables unless you intend to. Global variables (including function and objects) can overwrite window variables. Any function, including the window object, can overwrite global variables.
