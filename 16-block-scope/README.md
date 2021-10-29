@@ -34,7 +34,7 @@ Variables declared with the "old" `var` keyword can **NOT** have block scope, me
 // we CAN use x here
 ```
 
-## Local (function) Scope
+## Local Scope
 
 Variables declared within a function are local to that function.
 
@@ -47,3 +47,9 @@ function someFunction() {
 }
 // code here CAN NOT use bestActor
 ```
+
+Since local variables are only available inside their functions, variables with the same name can be used in different functions.
+
+> Local variables are created when a function starts and deleted when the function is completed.
+
+## Function Scope
