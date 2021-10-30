@@ -1,6 +1,5 @@
 # JavaScript Scope
 
-Now that we know about functions, objects and variable in general, we can dive into scope!
 
 Scope in JavaScript just means where the variables we declare are available for use.
 
