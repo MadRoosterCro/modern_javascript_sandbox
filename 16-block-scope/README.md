@@ -4,7 +4,11 @@ Now that we know about functions, objects and variable in general, we can dive i
 
 Scope in JavaScript just means where the variables we declare are available for use.
 
+JavaScript has 3 types of scope:
 
+- Block scope
+- Function scope
+- Global scope
 
 ## Block Scope
 
