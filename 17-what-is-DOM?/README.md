@@ -1,3 +1,3 @@
 # The DOM!
 
-### The 
+### The HTML 
