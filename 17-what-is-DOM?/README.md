@@ -12,3 +12,4 @@ The methods to access all HTML elements
 The events for all HTML elements
 In other words: The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
 
+### The DOM Programming Interface
