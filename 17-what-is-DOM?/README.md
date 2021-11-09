@@ -38,15 +38,25 @@ Let's see some examples of methods and properties for HTML manipulation.
 
 #### Finding HTML Elements
 
-| Method                                         | Description                    |
-| ---------------------------------------------- | ------------------------------ |
-| `document.getElementById(_id_)`                | Find an element by element id. |
-| `document.getElementsByTagName(_tagName_)`     | Find elements by tag name.     |
-| `document.getElementsByClassName(_className_)` | Find elements by class name.   |
+| **Method**                                   | **Description**                |
+| -------------------------------------------- | ------------------------------ |
+| `document.getElementById(id)`                | Find an element by element id. |
+| `document.getElementsByTagName(tagName)`     | Find elements by tag name.     |
+| `document.getElementsByClassName(className)` | Find elements by class name.   |
+
+#### Changing HTML Elements
+
+| **Property**                             | **Description**                                |
+| ---------------------------------------- | ---------------------------------------------- |
+| `element.innerHTML` = new html content   | Change the inner HTML of an element.           |
+| `element.attribute` = new value          | Change the attribute value of an HTML element. |
+| `element.style.property` = new style     | Change the style of an HTML element.           |
+| **Method**                               | **Description**                                |
+| `element.setAttribute(attribute, value)` | Change the attribute value of an HTML element. |
 
 #### Finding HTML Objects
 
-| Property                       | Description                                                         |
+| **Property**                   | **Description**                                                     |
 | ------------------------------ | ------------------------------------------------------------------- |
 | `document.anchors`             | Returns all `<a>` elements that have a name attribute.              |
 | `document.baseURI`             | Returns the absolute base URI of the document.                      |
