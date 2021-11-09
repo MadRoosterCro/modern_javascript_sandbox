@@ -56,13 +56,19 @@ Let's see some examples of methods and properties for HTML manipulation.
 
 #### Adding and Deleting Elements
 
-| **Method**                      | **Description**                   |
-| ------------------------------- | --------------------------------- |
-| document.createElement(element) | Create an HTML element.           |
-| document.removeChild(element)   | Remove an HTML element.           |
-| document.appendChild(element)   | Add an HTML element.              |
-| document.replaceChild(new, old) | Replace an HTML element.          |
-| document.write(text)            | Write into the HTML output stream |
+| **Method**                        | **Description**                   |
+| --------------------------------- | --------------------------------- |
+| `document.createElement(element)` | Create an HTML element.           |
+| `document.removeChild(element)`   | Remove an HTML element.           |
+| `document.appendChild(element)`   | Add an HTML element.              |
+| `document.replaceChild(new, old)` | Replace an HTML element.          |
+| `document.write(text)`            | Write into the HTML output stream |
+
+#### Adding Evenets Handlers
+
+| **Method**                                               | **Description**                               |
+| -------------------------------------------------------- | --------------------------------------------- |
+| `document.getElementById(id).onclick` = function(){code} | Adding event handler code to an onclick event |
 
 #### Finding HTML Objects
 
