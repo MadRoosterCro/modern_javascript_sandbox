@@ -31,3 +31,31 @@ A method is an action you can do (like add or deleting an HTML element).
 ## Methods and Properties
 
 Let's start with some properties of DOM.
+
+#### Finding HTML Objects
+
+|Property| Description |
+|--|--|
+|document.anchors||
+|document.baseURI||
+|document.body||
+|document.cookie||
+|document.doctype||
+|document.documentElement||
+|document.documentMode||
+|document.documentURI||
+|document.domain||
+|document.embeds||
+|document.forms||
+|document.head||
+|document.images||
+|document.implementation||
+|document.inputEncoding||
+|document.lastModified||
+|document.links||
+|document.readyState||
+|document.referrer||
+|document.scripts||
+|document.strictErrorChecking||
+|document.title||
+|document.URL||
