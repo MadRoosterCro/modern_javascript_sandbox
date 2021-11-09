@@ -29,3 +29,5 @@ A property is a value that you can get or set (like changing the content of an H
 A method is an action you can do (like add or deleting an HTML element).
 
 ## Methods and Properties
+
+Let's start with some properties of DOM.
