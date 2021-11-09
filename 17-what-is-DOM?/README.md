@@ -30,7 +30,19 @@ A method is an action you can do (like add or deleting an HTML element).
 
 ## Methods and Properties
 
-Let's start with some properties of DOM.
+The document object represents your web page.
+
+If you want to access any element in a HTML page, you always start with accessing the document object.
+
+Let's see some examples of methods and properties for HTML manipulation.
+
+#### Finding HTML Elements
+
+| Method                                         | Description                    |
+| ---------------------------------------------- | ------------------------------ |
+| `document.getElementById(_id_)`                | Find an element by element id. |
+| `document.getElementsByTagName(_tagName_)`     | Find elements by tag name.     |
+| `document.getElementsByClassName(_className_)` | Find elements by class name.   |
 
 #### Finding HTML Objects
 
