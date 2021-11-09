@@ -54,6 +54,16 @@ Let's see some examples of methods and properties for HTML manipulation.
 | **Method**                               | **Description**                                |
 | `element.setAttribute(attribute, value)` | Change the attribute value of an HTML element. |
 
+#### Adding and Deleting Elements
+
+| **Method**                      | **Description**                   |
+| ------------------------------- | --------------------------------- |
+| document.createElement(element) | Create an HTML element.           |
+| document.removeChild(element)   | Remove an HTML element.           |
+| document.appendChild(element)   | Add an HTML element.              |
+| document.replaceChild(new, old) | Replace an HTML element.          |
+| document.write(text)            | Write into the HTML output stream |
+
 #### Finding HTML Objects
 
 | **Property**                   | **Description**                                                     |
