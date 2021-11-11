@@ -28,6 +28,13 @@ A property is a value that you can get or set (like changing the content of an H
 
 A method is an action you can do (like add or deleting an HTML element).
 
+## Methods and Properties
+
+The document object represents your web page.
+
+If you want to access any element in a HTML page, you always start with accessing the document object.
+
+Let's see some examples of methods and properties for HTML manipulation.
 
 #### Finding HTML Elements
 
