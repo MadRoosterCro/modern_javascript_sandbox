@@ -2,7 +2,6 @@
 
 `Math` is one of javascript's built-in objects that has some properties and methods for mathematical functions and constants.
 
-It is not a function object and it works with the `Number` type.
 
 ### Explanation
 
