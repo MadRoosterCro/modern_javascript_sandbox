@@ -16,6 +16,7 @@ Anything else will convert to `NaN` (Not A Number).
 
 # `'NaN'`
 
+What seems to be really confusing here is that `NaN` is actually a number type. I know, strange since it stands for not a number, right?
 
 Let's put it this way, `NaN` is of numeric type, it stands for unrepresentable value, a value that has non-writable and non-configurable properties.
 
