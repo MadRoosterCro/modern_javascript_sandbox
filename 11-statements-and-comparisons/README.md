@@ -73,7 +73,6 @@ Strict equality compares two values for equality. Neither one value is converted
 
 - If the compared values have different types, values are considered unequal.
 
-- IF the values have the same type, are not numbers and have the same value, the are considered equal.
 
 
 
