@@ -64,3 +64,19 @@ There are a few comparison operations in JavaScript. For now let's inspect the 2
 - Loose equality is **symmetric**, meaning that `A == B` has identical semantics to `B == A` for any values of `A` and `B`.
 
 - `undefined` and `null` are loosely equal, meaning `undefined == null` is true, and `null == undefined` is also true.
+
+All primitives and objects are loosly unequal to `undefined` and `null`.
+
+## Strict equality `===`
+
+Strict equality compares two values for equality. Neither one value is converted to some other value before being compared.
+
+- If the compared values have different types, values are considered unequal.
+
+- IF the values have the same type, are not numbers and have the same value, the are considered equal.
+
+- If both values are numbers, they are considered equal if they are both not `NaN` and are the same value, or if one is `+0` and one is `-0`.
+
+> NOTE: Strict equality is almost always the correct comparison operation to use!
+
+For all values except numbers, Strict comparison uses obvious intuitive semantics => meaning that a value is truly equal only to itself.
