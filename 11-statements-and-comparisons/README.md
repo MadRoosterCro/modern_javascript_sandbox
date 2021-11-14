@@ -67,7 +67,6 @@ There are a few comparison operations in JavaScript. For now let's inspect the 2
 
 All primitives and objects are loosly unequal to `undefined` and `null`.
 
-## Strict equality `===`
 
 
 
