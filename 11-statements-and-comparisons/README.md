@@ -75,6 +75,5 @@ Strict equality compares two values for equality. Neither one value is converted
 
 - IF the values have the same type, are not numbers and have the same value, the are considered equal.
 
-- If both values are numbers, they are considered equal if they are both not `NaN` and are the same value, or if one is `+0` and one is `-0`.
 
 
