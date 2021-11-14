@@ -71,7 +71,6 @@ All primitives and objects are loosly unequal to `undefined` and `null`.
 
 Strict equality compares two values for equality. Neither one value is converted to some other value before being compared.
 
-- If the compared values have different types, values are considered unequal.
 
 
 
