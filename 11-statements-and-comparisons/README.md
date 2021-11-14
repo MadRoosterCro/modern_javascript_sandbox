@@ -77,5 +77,4 @@ Strict equality compares two values for equality. Neither one value is converted
 
 - If both values are numbers, they are considered equal if they are both not `NaN` and are the same value, or if one is `+0` and one is `-0`.
 
-> NOTE: Strict equality is almost always the correct comparison operation to use!
 
