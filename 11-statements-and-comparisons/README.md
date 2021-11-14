@@ -64,12 +64,3 @@ There are a few comparison operations in JavaScript. For now let's inspect the 2
 - Loose equality is **symmetric**, meaning that `A == B` has identical semantics to `B == A` for any values of `A` and `B`.
 
 - `undefined` and `null` are loosely equal, meaning `undefined == null` is true, and `null == undefined` is also true.
-
-All primitives and objects are loosly unequal to `undefined` and `null`.
-
-
-
-
-
-
-
