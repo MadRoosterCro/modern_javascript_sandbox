@@ -5,6 +5,7 @@ HI there!
 The plan is to create a base for people that want to start with javascript and to refresh my own skills.
 
 Also, before we start I would recommend you to install Git, NodeJs and your preffered IDE on your machine.
+
 ## Vanilla only
 
 The point of this is to use vanilla JavaScript and make it easier for beginners to understand how JavaScript works in its core.
@@ -45,3 +46,5 @@ p.p.s. I will also show you how markdown works so your project/repo docummentati
 
 p.p.p.s.
 It is getting ridiculous with the peepees, I know, but if you have any questions feel free to contact me on the socials!
+
+Need a break, will be back in a few weeks
